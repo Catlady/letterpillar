@@ -1,0 +1,75 @@
+<!--
+https://www.wordnik.com/users/amberweightman S1
+http://developer.wordnik.com/docs.html#!/word/getWord_get_1
+Your API key is: 28875f198b7568357d0251be0a70296428eac8ef76af0a3b1
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Letterpillar</title>
+		<meta property="og:title" content="Letterpillar"/>
+		<meta property="og:site_name" content="Letterpillar"/>
+
+		<link rel="stylesheet" href="letterpillar.css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js" charset="utf-8"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="scripts/letterpillar.js"></script>
+
+		<meta name="description" content="Awesome web game">
+		<meta property="og:description" content="Awesome web game"/>
+
+		<meta charset="UTF-8">
+		<meta name="author" content="Amber Weightman">
+		<meta name="keywords" content="HTML, HTML5, CSS, JS, JavaScript, node.js, d3.js, game, games, snake, letterpillar, caterpillar, word, words, fun, easy, simple, hard, difficult, browser, online, dictionary">
+		<meta property="og:type" content="game"/>
+		
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<meta property="og:image" content="images/letterpillar.jpg"/>		
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Letterpillar</h1>
+			<h2>Awesome web game</h2>
+		</header>
+
+		<!--<menu></menu>-->
+		  
+		<main>
+
+			<section id="sideBar">
+			
+				<!--Side bar main content is always visible-->
+				<div id="sideBarMainContent">
+				
+					<div id="stats">
+						<span id="time"><time>00:00</time></span>
+						<span id="score">1,000,000,000</span>
+					</div>
+					
+					<div id="wordList"></div>
+				</div>
+
+				<!--Side bar secondary content is collapsed by default-->
+				<div id="sideBarSecondaryContent">
+					<div id="options"></div>
+					<div id="navigationBar">
+					<!--This will provide buttons in case the user does not want to navigate with keys-->
+					</div>
+				</div>
+				
+			</section>
+
+			<section id="gameBoard"></section>
+
+		</main>
+		  
+		<footer>
+			<p>Developed by: Amber Weightman</p>
+		</footer>
+
+	</body>
+</html>

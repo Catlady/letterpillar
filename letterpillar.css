@@ -1,8 +1,27 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	/*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;*/
+
+}
+
 
 header, footer{
 	width:100%;
-	background-color:pink;
+	opacity:0.1;
 	clear:both;
+}
+
+header {
+	border-bottom: 1px solid black;
+}
+footer {
+	border-top: 1px solid black;
+}
+
+h1 {
+	margin: 0;
+	margin-bottom: 5px;
 }
 
 #sideBar{
@@ -10,22 +29,91 @@ header, footer{
 	
 	float:right;
 	display:block;
-	border:1px solid red;
+	margin:10px;
 }
 
+#stats{
+
+	display:inline-block;
+	float:right;
+}
 #stats #time{
+	float:right;
 	font-size:3em;
 }#stats #score{
 	color:grey;
+	float:left;
+}
+/*miliseconds*/
+#time time span{
+	opacity:0.1;
 }
 
 #sideBarMainContent{
 
 }
 #sideBarSecondaryContent{
-
+	margin-top:40px;
+	display:inline-block;
+	float:right;
 }
 
 #gameBoard {
 	
+}
+
+button{
+/*#toggleTimer{*/
+	display:block;
+	padding:5px;
+	opacity:0.5;
+	float:right;
+}
+
+
+#overlay{
+	width:100%;
+	height:100%;
+	color:white;
+	opacity:0.9;
+	
+	display:block;
+	position:absolute;
+	background-color:white;
+	display:none;
+	  width: 99%;
+  height: 98%;
+}
+
+#dialog{
+	width:200px;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:white;
+	margin-top:100px;
+	border:2px solid grey;
+	position:absolute;
+	background-color:white;
+	z-index:100;
+	padding:10px;
+	display:none;
+}
+
+#dialog button{
+	clear:both;
+}
+
+input {
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	float:right;
+	background-color:lightgrey;
+	padding-left:2px;
+	width:50px;
+}
+label {
+	margin-bottom:5px;
+	float:left;
 }

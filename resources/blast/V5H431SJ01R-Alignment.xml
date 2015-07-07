@@ -1,0 +1,2881 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.28+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>24143</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>274</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>24143</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>274</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|129295|sp|P01013.1|OVALX_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Ovalbumin-related protein X; AltName: Full=Gene X protein</Hit_def>
+  <Hit_accession>P01013</Hit_accession>
+  <Hit_len>232</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>481.485</Hsp_bit-score>
+      <Hsp_score>1238</Hsp_score>
+      <Hsp_evalue>3.92963e-170</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_hseq>
+      <Hsp_midline>QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|448824824|ref|NP_001263315.1|</Hit_id>
+  <Hit_def>ovalbumin-related protein X [Gallus gallus]</Hit_def>
+  <Hit_accession>NP_001263315</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.33</Hsp_bit-score>
+      <Hsp_score>1235</Hsp_score>
+      <Hsp_evalue>2.61579e-167</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKQTEGQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKEESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSGLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPELEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_hseq>
+      <Hsp_midline>E  TE QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTK+ESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVS LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPE EQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|385145541|dbj|BAM13279.1|</Hit_id>
+  <Hit_def>ovalbumin-related Y [Gallus gallus]</Hit_def>
+  <Hit_accession>BAM13279</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>386.726</Hsp_bit-score>
+      <Hsp_score>992</Hsp_score>
+      <Hsp_evalue>1.52876e-130</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>183</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKETNGQIKDLLVSSSIDFGTTMVFINTIYFKGIWKIAFNTEDTREMPFSMTKQESKPVQMMCMNNSFNVATLPAEKMKILELPYASGDLSMLVLLPDEVSGLERIEKTINFDKLREWTSTNAMAKKSMKVYLPRMKIEEKYNLTSILMALGMTDLFSRSANLTGISSVDNLMISDAVHGVFMEVNEEGTEATGSTGAIGNIKHSLELEEFRADHPFLFFIRYNPTNAILFFGRYWSP</Hsp_hseq>
+      <Hsp_midline>E  T  QIKDLLVSSS D  TT+V +N IYFKG+WK AFN EDTREMPF +TKQESKPVQMMCMNNSFNVATLPAEKMKILELP+ASGDLSMLVLLPDEVS LERIEKTINF+KL EWT+ N M K+ +KVYLP+MKIEEKYNLTS+LMALGMTDLF  SANLTGISS ++L IS AVHG FME++E+G E  GSTG I +IKHS E E+FRADHPFLF I++NPTN I++FGRYWSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|71897377|ref|NP_001026172.1|</Hit_id>
+  <Hit_def>ovalbumin-related protein Y [Gallus gallus] &gt;gi|129296|sp|P01014.1|OVALY_CHICK RecName: Full=Ovalbumin-related protein Y; AltName: Full=Gene Y protein &gt;gi|212900|gb|AAA68882.1| ovalbumin [Gallus gallus] &gt;gi|385145537|dbj|BAM13277.1| ovalbumin-related Y [Gallus gallus] &gt;gi|385145539|dbj|BAM13278.1| ovalbumin-related Y [Gallus gallus]</Hit_def>
+  <Hit_accession>NP_001026172</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>385.185</Hsp_bit-score>
+      <Hsp_score>988</Hsp_score>
+      <Hsp_evalue>8.0755e-130</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKETNGQIKDLLVSSSIDFGTTMVFINTIYFKGIWKIAFNTEDTREMPFSMTKEESKPVQMMCMNNSFNVATLPAEKMKILELPYASGDLSMLVLLPDEVSGLERIEKTINFDKLREWTSTNAMAKKSMKVYLPRMKIEEKYNLTSILMALGMTDLFSRSANLTGISSVDNLMISDAVHGVFMEVNEEGTEATGSTGAIGNIKHSLELEEFRADHPFLFFIRYNPTNAILFFGRYWSP</Hsp_hseq>
+      <Hsp_midline>E  T  QIKDLLVSSS D  TT+V +N IYFKG+WK AFN EDTREMPF +TK+ESKPVQMMCMNNSFNVATLPAEKMKILELP+ASGDLSMLVLLPDEVS LERIEKTINF+KL EWT+ N M K+ +KVYLP+MKIEEKYNLTS+LMALGMTDLF  SANLTGISS ++L IS AVHG FME++E+G E  GSTG I +IKHS E E+FRADHPFLF I++NPTN I++FGRYWSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|326917082|ref|XP_003204833.1|</Hit_id>
+  <Hit_def>PREDICTED: ovalbumin-related protein Y-like [Meleagris gallopavo]</Hit_def>
+  <Hit_accession>XP_003204833</Hit_accession>
+  <Hit_len>467</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>382.489</Hsp_bit-score>
+      <Hsp_score>981</Hsp_score>
+      <Hsp_evalue>9.40491e-128</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>230</Hsp_hit-from>
+      <Hsp_hit-to>467</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>180</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKETNGQIKDLLVSSSIDFGTMMVFINTVYFKGIWKTAFNTEDTQEMPFRMTKQESKPVQMMCLNDTFNVATLPAEKMKILELPYASGELSMLVLLPDEVSGLEQIEKTINFENLREWTSTNAMEKKSMKVYLPRMKIEEKYNLTSILMALGMTDLFSRSANLTGISSVDNLMISDAVHGAFMEVNEEGTEAAGSTGAIGNIKHSLELEEFRADHPFLFLIRFNPTNVILFFGRYWSP</Hsp_hseq>
+      <Hsp_midline>E  T  QIKDLLVSSS D  T +V +N +YFKG+WKTAFN EDT+EMPF +TKQESKPVQMMC+N++FNVATLPAEKMKILELP+ASG+LSMLVLLPDEVS LE+IEKTINFE L EWT+ N MEK+ +KVYLP+MKIEEKYNLTS+LMALGMTDLF  SANLTGISS ++L IS AVHGAFME++E+G E AGSTG I +IKHS E E+FRADHPFLFLI+ NPTN I++FGRYWSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|483506762|gb|EOA97660.1|</Hit_id>
+  <Hit_def>Ovalbumin-related protein Y, partial [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>EOA97660</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>373.629</Hsp_bit-score>
+      <Hsp_score>958</Hsp_score>
+      <Hsp_evalue>2.39709e-125</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKQTEGRIQDFLVPSSVDLNTALVLVNAIYFKGTWKRAFKEEDTQEMPFSMTKQDSKPVQMMIQNSTFKVATVAAEKMKILELPYASGELSMLVLLPDEVSGLEQIENKISFEKLTQWTNPSVMERRVVKVYLPRMKIEEKYNLTSVLMSLGMTDLFSPSANLSGISSAENLKMSEAVHGAYMEVNEEGMEVVGSTGMMGDIKDSSEFEEFRADHPFLFLIKHNPTNSIVYFGRYCSP</Hsp_hseq>
+      <Hsp_midline>E  TE +I+D LV SS DL+T LVLVNAIYFKG WK AF  EDT+EMPF +TKQ+SKPVQMM  N++F VAT+ AEKMKILELP+ASG+LSMLVLLPDEVS LE+IE  I+FEKLT+WTNP+ ME+R VKVYLP+MKIEEKYNLTSVLM+LGMTDLF PSANL+GISSAE+LK+S+AVHGA+ME++E+G+E+ GSTG++ DIK S E E+FRADHPFLFLIKHNPTN+IVYFGRY SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|449272428|gb|EMC82357.1|</Hit_id>
+  <Hit_def>Ovalbumin-related protein Y [Columba livia]</Hit_def>
+  <Hit_accession>EMC82357</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>1.02558e-116</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>413</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TNGKIQGFLEPGSVDLDTVLVLVNAVYFKGIWKTAFKEEDTREFPFSVTKQETKPVQMMRQNSTFKVAAVTAEKIKILELPYASGELSMLVLLPDEISDLEKLENKISFEKLTEWTSPNVMERKRMKVYLPRMKMEEKYNLTFVLKALGMTDLFSPSASLSGISSQKSLKISEAIHKAYMEVNEEGIEMADSAGVMGDIKHSFELEEFKADHPFLFLIKHNPTNSILFLGRYCSP</Hsp_hseq>
+      <Hsp_midline>T  +I+  L   S DLDT LVLVNA+YFKG+WKTAF  EDTRE PF VTKQE+KPVQMM  N++F VA + AEK+KILELP+ASG+LSMLVLLPDE+SDLE++E  I+FEKLTEWT+PN ME++R+KVYLP+MK+EEKYNLT VL ALGMTDLF PSA+L+GISS +SLKIS+A+H A+ME++E+GIEMA S GV+ DIKHS E E+F+ADHPFLFLIKHNPTN+I++ GRY SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|224045096|ref|XP_002197524.1|</Hit_id>
+  <Hit_def>PREDICTED: ovalbumin-like [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_002197524</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>3.48831e-107</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TNGQIQDLLEPSSVNPQTALVLVNAIYFKGIWKTPFKEEHTQEVPFNVTEQESRPVQMMCQNGTFRVARVAEDKIKVLELPYASEELTLLVLLPDDISGLAQLENKINFEKLAEWTSSRVLEEKKVKVYLPRMKIEEKYNLTSVLTSLGMTDLFSPSANLSGISSAEGLRVSEAVHQAYMEVTEEGTEDAGSADDTEDIQHSSEFEEFRADHPFLFLIKHNPSNLILFFGRYCSP</Hsp_hseq>
+      <Hsp_midline>T  QI+DLL  SS +  T LVLVNAIYFKG+WKT F  E T+E+PF+VT+QES+PVQMMC N +F VA +  +K+K+LELP+AS +L++LVLLPD++S L ++E  INFEKL EWT+   +E+++VKVYLP+MKIEEKYNLTSVL +LGMTDLF PSANL+GISSAE L++S+AVH A+ME++E+G E AGS    EDI+HS E E+FRADHPFLFLIKHNP+N I++FGRY SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|449272429|gb|EMC82358.1|</Hit_id>
+  <Hit_def>Ovalbumin-related protein Y [Columba livia]</Hit_def>
+  <Hit_accession>EMC82358</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.25</Hsp_bit-score>
+      <Hsp_score>835</Hsp_score>
+      <Hsp_evalue>1.12587e-106</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>393</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>LBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERI-----EKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>INSWVEKE--SDGKIRNFLEPDSVDLNTVLVLVNAVYFKGIWKTAFKEEDTREFPFSVTKQETKPVQMMCQNSTFKVAEVTEEKIKILELPYASGELSMLVLLPDDVSDLEKVWPWQAELSLHFEKLKEWTSPNVMERKRVKVYLPRMKMEEKIKLPAVLKALGMTDLFSPSADLSGISSQKSLKISEAIHKAYMEVNEEGTEATGSEEVTADIKRSSEFEEFKADRPFLFLIKHNPTDIILFFGKYCSP</Hsp_hseq>
+      <Hsp_midline>++  + +E  ++ +I++ L   S DL+T LVLVNA+YFKG+WKTAF  EDTRE PF VTKQE+KPVQMMC N++F VA +  EK+KILELP+ASG+LSMLVLLPD+VSDLE++     E +++FEKL EWT+PN ME++RVKVYLP+MK+EEK  L +VL ALGMTDLF PSA+L+GISS +SLKIS+A+H A+ME++E+G E  GS  V  DIK S E E+F+AD PFLFLIKHNPT+ I++FG+Y SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|342165211|sp|E2RVI8.1|OVAL_DRONO</Hit_id>
+  <Hit_def>RecName: Full=Ovalbumin; Short=OVA; AltName: Full=Egg albumin &gt;gi|310688047|dbj|BAJ23166.1| ovalbumin [Dromaius novaehollandiae]</Hit_def>
+  <Hit_accession>E2RVI8</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.21119e-102</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ETQTNGVIKNFLQPGSVDPQTEMVLVDAIYFKGTWEKAFKDEDTQEVPFRITEQESKPVQMMYQAGSFKVATVAAEKMKILELPYASGELSMFVLLPDDISGLEQLETTISIEKLSEWTSSNMMEDRKMKVYLPHMKIEEKYNLTSVLVALGMTDLFSPSANLSGISTAQTLKMSEAIHGAYVEIYEAGSEMATSTGVL--VEAASVSEEFRVDHPFLFLIKHNPSNSILFFGRCIFP</Hsp_hseq>
+      <Hsp_midline>E  T   IK+ L   S D  T +VLV+AIYFKG W+ AF  EDT+E+PF +T+QESKPVQMM    SF VAT+ AEKMKILELP+ASG+LSM VLLPD++S LE++E TI+ EKL+EWT+ N ME R++KVYLP MKIEEKYNLTSVL+ALGMTDLF PSANL+GIS+A++LK+S+A+HGA++E+ E G EMA STGV+  ++ +  SE+FR DHPFLFLIKHNP+N+I++FGR   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|400977284|pdb|3VVJ|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Ovalbumin From Emu (Dromaius Novaehollandiae) &gt;gi|400977285|pdb|3VVJ|B Chain B, Structure Of Ovalbumin From Emu (Dromaius Novaehollandiae) &gt;gi|400977286|pdb|3VVJ|C Chain C, Structure Of Ovalbumin From Emu (Dromaius Novaehollandiae)</Hit_def>
+  <Hit_accession>3VVJ_A</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>315.464</Hsp_bit-score>
+      <Hsp_score>807</Hsp_score>
+      <Hsp_evalue>1.45722e-102</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ETQTNGVIKNFLQPGSVDPQTEMVLVDAIYFKGTWEKAFKDEDTQEVPFRITEQESKPVQMMYQAGSFKVATVAAEKMKILELPYASGELSMFVLLPDDISGLEQLETTISIEKLSEWTSSNMMEDRKMKVYLPHMKIEEKYNLTSVLVALGMTDLFSPSANLSGISTAQTLKMSEAIHGAYVEIYEAGSEMATSTGVL--VEAASVSEEFRVDHPFLFLIKHNPSNSILFFGRCIFP</Hsp_hseq>
+      <Hsp_midline>E  T   IK+ L   S D  T +VLV+AIYFKG W+ AF  EDT+E+PF +T+QESKPVQMM    SF VAT+ AEKMKILELP+ASG+LSM VLLPD++S LE++E TI+ EKL+EWT+ N ME R++KVYLP MKIEEKYNLTSVL+ALGMTDLF PSANL+GIS+A++LK+S+A+HGA++E+ E G EMA STGV+  ++ +  SE+FR DHPFLFLIKHNP+N+I++FGR   P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|483506759|gb|EOA97657.1|</Hit_id>
+  <Hit_def>Ovalbumin, partial [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>EOA97657</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.686</Hsp_bit-score>
+      <Hsp_score>792</Hsp_score>
+      <Hsp_evalue>5.80212e-100</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIKNILQPSSVDSQTTMVLVNAIYFKGMWEKAFKDEDTQAMPFRMTEQESKPVQMMYQVGSFKVAMVTSEKMKILELPFASGMMSMFVLLPDEVSGLEQLESTISFEKLTEWTSSTMMEERRMKVYLPRMKMEEKYNLTSVFMALGMTDLFSSSANMSGISSTVSLKMSEAVHAACVEIFEAGRDVVGSAEAGMDV--TSVSEEFRADHPFLFFIKHNPTNSILFFGRWMSP</Hsp_hseq>
+      <Hsp_midline>E  T   IK++L  SS D  TT+VLVNAIYFKGMW+ AF  EDT+ MPF +T+QESKPVQMM    SF VA + +EKMKILELPFASG +SM VLLPDEVS LE++E TI+FEKLTEWT+   ME+RR+KVYLP+MK+EEKYNLTSV MALGMTDLF  SAN++GISS  SLK+S+AVH A +E+ E G ++ GS     D+  +  SE+FRADHPFLF IKHNPTN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|129293|sp|P01012.2|OVAL_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Ovalbumin; AltName: Full=Allergen Gal d II; AltName: Full=Egg albumin; AltName: Full=Plakalbumin; AltName: Allergen=Gal d 2 &gt;gi|212503|gb|AAA48998.1| ovalbumin [Gallus gallus] &gt;gi|212505|gb|AAB59956.1| ovalbumin [Gallus gallus] &gt;gi|808974|emb|CAA23716.1| ovalbumin [Gallus gallus]</Hit_def>
+  <Hit_accession>P01012</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.908</Hsp_bit-score>
+      <Hsp_score>777</Hsp_score>
+      <Hsp_evalue>5.11315e-98</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|223299|prf||0705172A</Hit_id>
+  <Hit_def>ovalbumin</Hit_def>
+  <Hit_accession>0705172A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>5.83362e-98</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|440923753|pdb|1OVA|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of Uncleaved Ovalbumin At 1.95 Angstroms Resolution &gt;gi|440923754|pdb|1OVA|D Chain D, Crystal Structure Of Uncleaved Ovalbumin At 1.95 Angstroms Resolution</Hit_def>
+  <Hit_accession>1OVA_C</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>6.01394e-98</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|15826578|pdb|1JTI|A</Hit_id>
+  <Hit_def>Chain A, Loop-Inserted Structure Of P1-P1&apos; Cleaved Ovalbumin Mutant R339t &gt;gi|15826579|pdb|1JTI|B Chain B, Loop-Inserted Structure Of P1-P1&apos; Cleaved Ovalbumin Mutant R339t</Hit_def>
+  <Hit_accession>1JTI_A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.368</Hsp_bit-score>
+      <Hsp_score>773</Hsp_score>
+      <Hsp_evalue>1.61267e-97</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKTFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGTEVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+  F  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|440923751|pdb|1OVA|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Uncleaved Ovalbumin At 1.95 Angstroms Resolution</Hit_def>
+  <Hit_accession>1OVA_A</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>2.98127e-97</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGXAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ G       +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|45384056|ref|NP_990483.1|</Hit_id>
+  <Hit_def>ovalbumin precursor [Gallus gallus] &gt;gi|808969|emb|CAA23682.1| unnamed protein product [Gallus gallus]</Hit_def>
+  <Hit_accession>NP_990483</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>3.04646e-97</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKTFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+  F  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|440923752|pdb|1OVA|B</Hit_id>
+  <Hit_def>Chain B, Crystal Structure Of Uncleaved Ovalbumin At 1.95 Angstroms Resolution</Hit_def>
+  <Hit_accession>1OVA_B</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>3.86484e-97</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGXAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ G       +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|157086860|gb|ABV21334.1|</Hit_id>
+  <Hit_def>OLLAS epitope-tagged ovalbumin [synthetic construct]</Hit_def>
+  <Hit_accession>ABV21334</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.597</Hsp_bit-score>
+      <Hsp_score>771</Hsp_score>
+      <Hsp_evalue>6.54216e-97</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPSSVDSQTAMVLVNAIVFKGLWEKTFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+  F  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|28566340|gb|AAO43266.1|</Hit_id>
+  <Hit_def>ovalbumin [Gallus gallus]</Hit_def>
+  <Hit_accession>AAO43266</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>1.06814e-96</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>IKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>IRNVLQPSSVDSQTAXVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFASGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYFPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAESLKISQAVHAAHAEINEAGREVVGSAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>I+++L  SS D  T  VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVY P+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAESLKISQAVH A  E++E G E+ GS      +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|326917103|ref|XP_003204842.1|</Hit_id>
+  <Hit_def>PREDICTED: ovalbumin [Meleagris gallopavo]</Hit_def>
+  <Hit_accession>XP_003204842</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>2.15719e-96</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGMIKNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAIPFRVTEQESKPVQMMYQIGLFKVASMASEKMKILELPFASGTMSMWVLLPDEVSGLEQLETTISFEKMTEWISSNIMEERRIKVYLPRMKMEEKYNLTSVLMAMGITDLFSSSANLSGISSAGSLKISQAVHAAYAEIYEAGREVIGSAEAGAD--ATSVSEEFRVDHPFLYCIKHNLTNSILFFGRCISP</Hsp_hseq>
+      <Hsp_midline>E  T   IK++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ +PF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SM VLLPDEVS LE++E TI+FEK+TEW + N ME+RR+KVYLP+MK+EEKYNLTSVLMA+G+TDLF  SANL+GISSA SLKISQAVH A+ E+ E G E+ GS     D   +  SE+FR DHPFL+ IKHN TN+I++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|82190473|sp|O73860.3|OVAL_MELGA</Hit_id>
+  <Hit_def>RecName: Full=Ovalbumin; AltName: Full=Egg albumin &gt;gi|3136338|gb|AAC16664.1| ovalbumin [Meleagris gallopavo]</Hit_def>
+  <Hit_accession>O73860</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>1.10392e-95</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGMIKNVLQPSSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAIPFRVTEQESKPVQMMYQIGLFKVASMASEKMKILELPFASGTMSMWVLLPDEVSGLEQLETTISFEKMTEWISSNIMEERRIKVYLPRMKMEEKYNLTSVLMAMGITDLFSSSANLSGISSAGSLKISQAAHAAYAEIYEAGREVIGSAEAGAD--ATSVSEEFRVDHPFLYCIKHNLTNSILFFGRCISP</Hsp_hseq>
+      <Hsp_midline>E  T   IK++L  SS D  T +VLVNAI FKG+W+ AF  EDT+ +PF VT+QESKPVQMM     F VA++ +EKMKILELPFASG +SM VLLPDEVS LE++E TI+FEK+TEW + N ME+RR+KVYLP+MK+EEKYNLTSVLMA+G+TDLF  SANL+GISSA SLKISQA H A+ E+ E G E+ GS     D   +  SE+FR DHPFL+ IKHN TN+I++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|34811330|pdb|1UHG|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of S-ovalbumin At 1.9 Angstrom Resolution &gt;gi|34811331|pdb|1UHG|B Chain B, Crystal Structure Of S-ovalbumin At 1.9 Angstrom Resolution &gt;gi|34811332|pdb|1UHG|C Chain C, Crystal Structure Of S-ovalbumin At 1.9 Angstrom Resolution &gt;gi|34811333|pdb|1UHG|D Chain D, Crystal Structure Of S-ovalbumin At 1.9 Angstrom Resolution</Hit_def>
+  <Hit_accession>1UHG_A</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>3.67338e-95</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNVLQPXSVDSQTAMVLVNAIVFKGLWEKAFKDEDTQAMPFRVTEQESKPVQMMYQIGLFRVASMASEKMKILELPFAXGTMSMLVLLPDEVSGLEQLESIINFEKLTEWTSSNVMEERKIKVYLPRMKMEEKYNLTSVLMAMGITDVFSSSANLSGISSAEXLKISQAVHAAHAEINEAGREVVGXAEA--GVDAASVSEEFRADHPFLFCIKHIATNAVLFFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L   S D  T +VLVNAI FKG+W+ AF  EDT+ MPF VT+QESKPVQMM     F VA++ +EKMKILELPFA G +SMLVLLPDEVS LE++E  INFEKLTEWT+ N ME+R++KVYLP+MK+EEKYNLTSVLMA+G+TD+F  SANL+GISSAE LKISQAVH A  E++E G E+ G       +  +  SE+FRADHPFLF IKH  TN +++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|82204122|sp|Q6V115.3|OVAL_COTCO</Hit_id>
+  <Hit_def>RecName: Full=Ovalbumin; AltName: Full=Egg albumin &gt;gi|33590487|gb|AAQ22769.1| ovalbumin [Coturnix coturnix]</Hit_def>
+  <Hit_accession>Q6V115</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>3.17135e-94</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNILQPSSVDSQTAMVLVNAIAFKGLWEKAFKAEDTQTIPFRVTEQESKPVQMMHQIGSFKVASMASEKMKILELPFASGTMSMLVLLPDDVSGLEQLESTISFEKLTEWTSSSIMEERKVKVYLPRMKMEEKYNLTSLLMAMGITDLFSSSANLSGISSVGSLKIPQAVHAAYAEINEAGRDVVGSAEAGVD-----ATEEFRADHPFLFCVKHIETNAILLFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF AEDT+ +PF VT+QESKPVQMM    SF VA++ +EKMKILELPFASG +SMLVLLPD+VS LE++E TI+FEKLTEWT+ + ME+R+VKVYLP+MK+EEKYNLTS+LMA+G+TDLF  SANL+GISS  SLKI QAVH A+ E++E G ++ GS     D      +E+FRADHPFLF +KH  TN I+ FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|129294|sp|P19104.2|OVAL_COTJA</Hit_id>
+  <Hit_def>RecName: Full=Ovalbumin; AltName: Full=Egg albumin &gt;gi|62644|emb|CAA37916.1| unnamed protein product [Coturnix coturnix]</Hit_def>
+  <Hit_accession>P19104</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>8.95039e-94</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGIIRNILQPSSVDSQTAMVLVNAIAFKGLWEKAFKAEDTQTIPFRVTEQESKPVQMMYQIGSFKVASMASEKMKILELPFASGTMSMLVLLPDDVSGLEQLESIISFEKLTEWTSSSIMEERKVKVYLPRMKMEEKYNLTSLLMAMGITDLFSSSANLSGISSVGSLKISQAVHAAHAEINEAGRDVVGSAEAGVD-----ATEEFRADHPFLFCVKHIETNAILLFGRCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L  SS D  T +VLVNAI FKG+W+ AF AEDT+ +PF VT+QESKPVQMM    SF VA++ +EKMKILELPFASG +SMLVLLPD+VS LE++E  I+FEKLTEWT+ + ME+R+VKVYLP+MK+EEKYNLTS+LMA+G+TDLF  SANL+GISS  SLKISQAVH A  E++E G ++ GS     D      +E+FRADHPFLF +KH  TN I+ FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|224045100|ref|XP_002199443.1|</Hit_id>
+  <Hit_def>PREDICTED: ovalbumin-like [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_002199443</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>4.58339e-92</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGSIKNILQPSSVSSQTDMVLVSAIYFNGLWEKAFNEEDTQTVPFRISEQESKPVQMMSQIGTFKVAEIPSEKCRVLELPYASGRLSLWVLLPDDISGLEQLETAITFENLNEWTSSSKMEERKIKVYLPRMKIEETYNLTSVLKSLGITDLFSSSANLSGISSAESLKLSGAFHEAFVEIYEAGSRVAGSSGA--GVDDTSVSEEIRADHPFLFVIKHNPSDSVLFFGRCYSP</Hsp_hseq>
+      <Hsp_midline>E  T   IK++L  SS    T +VLV+AIYF G+W+ AFN EDT+ +PF +++QESKPVQMM    +F VA +P+EK ++LELP+ASG LS+ VLLPD++S LE++E  I FE L EWT+ + ME+R++KVYLP+MKIEE YNLTSVL +LG+TDLF  SANL+GISSAESLK+S A H AF+E+ E G  +AGS+G    +  +  SE+ RADHPFLF+IKHNP++++++FGR +SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|763101|emb|CAA23685.1|</Hit_id>
+  <Hit_def>unnamed protein product [Gallus gallus]</Hit_def>
+  <Hit_accession>CAA23685</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>4.72442e-92</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>133</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>133</Hsp_align-len>
+      <Hsp_qseq>IEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>IEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_hseq>
+      <Hsp_midline>IEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|378940000|gb|AFC75539.1|</Hit_id>
+  <Hit_def>ovalbumin [Columba livia]</Hit_def>
+  <Hit_accession>AFC75539</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>3.79372e-90</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTG-VIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGMIRNILQPGSVDPQTEMVLVNAIYFKGVWAKAFKVEGTQTMPFRVTEQESKPVQMMYQLGSFKVTDLPPEKMRILELPYASGMLSMWVILPYDISGLEQIENAITFEKLQEWTSSNLMEEKTVKVYLPRMKMEEKYNLTSVLMGLGITDLFSSSADLSGISSVERLKVSEAVHQAFVEIDEAGSEAAGIAGAAVKDESASPE---FKVDHPFLFLIRHNPTDGILFLARCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L   S D  T +VLVNAIYFKG+W  AF  E T+ MPF VT+QESKPVQMM    SF V  LP EKM+ILELP+ASG LSM V+LP ++S LE+IE  I FEKL EWT+ N ME++ VKVYLP+MK+EEKYNLTSVLM LG+TDLF  SA+L+GISS E LK+S+AVH AF+E+ E G E AG  G  ++D   SPE   F+ DHPFLFLI+HNPT+ I++  R  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|449272430|gb|EMC82359.1|</Hit_id>
+  <Hit_def>Ovalbumin [Columba livia]</Hit_def>
+  <Hit_accession>EMC82359</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>4.15712e-90</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTG-VIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTSGMIRNILQPGSVDPQTEMVLVNAIYFKGVWAKAFKVEGTQTMPFRVTEQESKPVQMMYQLGSFKVTDLPPEKMRILELPYASGMLSMWVILPYDISGLEQIENAITFEKLQEWTSSNLMEEKTVKVYLPRMKMEEKYNLTSVLMGLGITDLFSSSADLSGISSVERLKVSEAVHQAFVEIDEAGSEAAGIAGAAVKDESASPE---FKVDHPFLFLIRHNPTDGILFLARCVSP</Hsp_hseq>
+      <Hsp_midline>E  T   I+++L   S D  T +VLVNAIYFKG+W  AF  E T+ MPF VT+QESKPVQMM    SF V  LP EKM+ILELP+ASG LSM V+LP ++S LE+IE  I FEKL EWT+ N ME++ VKVYLP+MK+EEKYNLTSVLM LG+TDLF  SA+L+GISS E LK+S+AVH AF+E+ E G E AG  G  ++D   SPE   F+ DHPFLFLI+HNPT+ I++  R  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|157841217|ref|NP_001103200.1|</Hit_id>
+  <Hit_def>serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 6 [Danio rerio] &gt;gi|166158170|ref|NP_001107482.1| uncharacterized protein LOC100135333 [Xenopus (Silurana) tropicalis] &gt;gi|156230565|gb|AAI52147.1| Zgc:173729 protein [Danio rerio] &gt;gi|163916208|gb|AAI57632.1| LOC100135333 protein [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>NP_001103200</Hit_accession>
+  <Hit_len>439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>6.97493e-72</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>183</Hsp_hit-from>
+      <Hsp_hit-to>439</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>TEINOVALBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPES--EQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>SEASRVNINKWVEKN--TQEKIKDLLPSGAIDAMTRLVLVNAIYFKGNWEKKFTKEATRDGQFKLNKNQTKPVKMMHQKARFSLASIPEMNSQVLELPYAGKNLSMLIILPDQIEDATTGLQKLEKALTYEKLMEWTKPSMMCQQEVQVSLPKFKTEQTYDMKSLLVSMGMEDVFDPQKVNLTGMSSSNDLVLSKVIHKAFVEVNEEGTEAAAATGVIATLTSMPLSPPKTFTADHPFIFFIRHNPTNAILFYGRFSSP</Hsp_hseq>
+      <Hsp_midline>+E + V ++  + +   T+++IKDLL S + D  T LVLVNAIYFKG W+  F  E TR+  F + K ++KPV+MM     F++A++P    ++LELP+A  +LSML++LPD++ D    L+++EK + +EKL EWT P+ M ++ V+V LP+ K E+ Y++ S+L+++GM D+F P   NLTG+SS+  L +S+ +H AF+E++E+G E A +TGVI  +   P S  + F ADHPF+F I+HNPTN I+++GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|332078523|ref|NP_001193642.1|</Hit_id>
+  <Hit_def>serpin peptidase inhibitor, clade B like [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001193642</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.032</Hsp_bit-score>
+      <Hsp_score>593</Hsp_score>
+      <Hsp_evalue>1.80036e-70</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLLPKDSLDSSTALVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFGSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQEVEDQLTAEKLIEWTSPQNMGNREVDLYLPRFKVEESYNLVPTLQALGMVDAFCGGVANFSGMNGSRDLAVSKVIHKSFVEVTEEGTEAAAATGVVFTRTSLPFRERFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDLL   S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL EWT+P  M  R V +YLP+ K+EE YNL   L ALGM D F    AN +G++ +  L +S+ +H +F+E++E+G E A +TGV+      P  E+FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|224045098|ref|XP_002197531.1|</Hit_id>
+  <Hit_def>PREDICTED: ovalbumin-related protein Y-like [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_002197531</Hit_accession>
+  <Hit_len>338</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>6.19379e-70</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELS</Hsp_qseq>
+      <Hsp_hseq>EKETNGRIQDILVSDSVDLNTVLVFVNVIYFKGIWKTAFKEEHTREEPFNMTEQESRPVQMMCQNGTFRVARVAEDKIKVLELPYASGEMSLLVMLPDDISGLAQLENKISYEKLLEWTSPKVLEKKKVKVYLPRMKIEEKYNLTSVLTSLGMTDLFSPSANLSGISSAEGLRVSFEGRGYGRYLS</Hsp_hseq>
+      <Hsp_midline>E  T  +I+D+LVS S DL+T LV VN IYFKG+WKTAF  E TRE PF++T+QES+PVQMMC N +F VA +  +K+K+LELP+ASG++S+LV+LPD++S L ++E  I++EKL EWT+P  +EK++VKVYLP+MKIEEKYNLTSVL +LGMTDLF PSANL+GISSAE L++S    G    LS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|358420936|ref|XP_003584769.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_003584769</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>8.79429e-69</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGRIKNLFPQNSLN-SSVLVLVNAVYFKGQWQEEFKKENTVEEKFWLNKGTSKPVQMMKQTNHFNFVSLEDVQAKILEIPYKGGELSMMVLLPDEVDGLQEVEDQLTAEKLIEWTSPQNMGNREVDLYLPRFKVEESYNLVPTLQALGMVDAFCGGVANFSGMNGSRDLAVSKVIHKSFVEVTEEGTEAAAATGVVFTRTSLPFRERFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IK+L   +S +  + LVLVNA+YFKG W+  F  E+T E  F + K  SKPVQMM   N FN  +L   + KILE+P+  G+LSM+VLLPDEV  L+ +E  +  EKL EWT+P  M  R V +YLP+ K+EE YNL   L ALGM D F    AN +G++ +  L +S+ +H +F+E++E+G E A +TGV+      P  E+FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|119916473|ref|XP_001254054.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Bos taurus] &gt;gi|119923098|ref|XP_001254515.1| PREDICTED: serpin B3-like [Bos taurus] &gt;gi|119924093|ref|XP_001254617.1| PREDICTED: serpin B3-like [Bos taurus] &gt;gi|119924103|ref|XP_001254777.1| PREDICTED: serpin B3-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_001254054</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>9.68413e-68</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFI-PSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMGKREVDLYLPRFKVEESYNLVPTLRALGMVDAFIFRVANFSGMNGRRDLVVSKVFHKSFVEVTEEGTEAAAATGVVIIRTSLPFREPFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR V +YLP+ K+EE YNL   L ALGM D FI   AN +G++    L +S+  H +F+E++E+G E A +TGV+      P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|358420943|ref|XP_003584772.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_003584772</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>1.25147e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNERIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEENTVEEKFWLNKDASKPVQMMKQTNSFNFMSLEDVQAKILEIPYKGSELSMMVLLPDEVDGLQELEDQLTAEKLIAWTSPQNMRKRQVDLYLPRFKVEESYDLVPTLQALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVEIIERAGRNSESFRCNHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IKDL    S D  T LVLVNA+YFKG W   F  E+T E  F + K  SKPVQMM   NSFN  +L   + KILE+P+   +LSM+VLLPDEV  L+ +E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV    +    SE FR +HPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|449272433|gb|EMC82362.1|</Hit_id>
+  <Hit_def>Heterochromatin-associated protein MENT [Columba livia]</Hit_def>
+  <Hit_accession>EMC82362</Hit_accession>
+  <Hit_len>408</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>1.50669e-67</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>408</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TERKIQNLLPAGSLNSRTVLVLVNAIYFKGNWKKKFLEENTSEMPFRLSKTKTKPVQMMFLRDTFLILHETTMKFKIIELPYVENELSMFVLLPDDIHDNTTGLELVERELTYEKLAEWTKSDSMMKAEVDLYLPKLKLEENYDLKSTLSSMGIRKAFDPTQADFTGMSAKKDLFISKVIHKAFVEVSEEGTEAAAATGVLMLRSKAP-IMTFKADHPFLFFIKHNKSQTILFFGRLCSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL + S +  T LVLVNAIYFKG WK  F  E+T EMPF ++K ++KPVQMM + ++F +      K KI+ELP+   +LSM VLLPD++ D    LE +E+ + +EKL EWT  ++M K  V +YLP++K+EE Y+L S L ++G+   F P+ A+ TG+S+ + L IS+ +H AF+E+SE+G E A +TGV+     +P    F+ADHPFLF IKHN + TI++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|358420938|ref|XP_003584770.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4 [Bos taurus]</Hit_def>
+  <Hit_accession>XP_003584770</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.89829e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMRKRQVDLYLPRFKVEESYDLVPTLRALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVGVRVLSAPFRESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV   +  +P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|157785603|ref|NP_001099089.1|</Hit_id>
+  <Hit_def>serpin peptidase inhibitor, clade B like [Bos taurus] &gt;gi|154425965|gb|AAI51497.1| LOC511106 protein [Bos taurus]</Hit_def>
+  <Hit_accession>NP_001099089</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>2.8054e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGRIKNLFPQNSLN-SSVLVLVNAVYFKGQWQEEFKKENTVEEKFWLNKDTSKPVQMMKQTNHFKFVSLEDVQAKILEIPYTGGELSMMVLLPDEVDGLQEVEDQLTAEKLIEWTSPQNMGNREVDLYLPRFKVEESYNLVPTLQALGMVDAFCDGVANFSGMNGSRDLAVSKVIHKSFVEVTEEGTEATAATGVVITRTSLPFRERFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IK+L   +S +  + LVLVNA+YFKG W+  F  E+T E  F + K  SKPVQMM   N F   +L   + KILE+P+  G+LSM+VLLPDEV  L+ +E  +  EKL EWT+P  M  R V +YLP+ K+EE YNL   L ALGM D F    AN +G++ +  L +S+ +H +F+E++E+G E   +TGV+      P  E+FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|432112883|gb|ELK35473.1|</Hit_id>
+  <Hit_def>Serpin B3 [Myotis davidii]</Hit_def>
+  <Hit_accession>ELK35473</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>3.45255e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNEKIKDLFPQGSLDNSTILVLVNAIYFKGQWDEKFDAKRTEQGQFWLNKDTSKVVQMMKQSNMFKFTSLEDMQAKILEIPYKDKDLSMVLLLPNEIDGLQQLEDKLTAEKLIEWTSSRNMSMRHVDVHLPRFKVEQSFDLQVTMKALGMVDAFSPRDADFSGMSGSRGLMISAILHKSFVEVTEEGTEAAAATGVGISVTSAPHYEMFHCDHPFLFLIKHNKTNSILFFGRFLSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IKDL    S D  T LVLVNAIYFKG W   F+A+ T +  F + K  SK VQMM  +N F   +L   + KILE+P+   DLSM++LLP+E+  L+++E  +  EKL EWT+   M  R V V+LP+ K+E+ ++L   + ALGM D F P  A+ +G+S +  L IS  +H +F+E++E+G E A +TGV   +  +P  E F  DHPFLFLIKHN TN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|440894249|gb|ELR46749.1|</Hit_id>
+  <Hit_def>Serpin B4, partial [Bos grunniens mutus]</Hit_def>
+  <Hit_accession>ELR46749</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>3.45846e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLF-IPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKELFPKDSLKSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVRMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMMVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMRKRQVDLYLPRFKVEESYDLVPTLRALGMVDAFNVRVANFSGMTGSRDLAVSKVFHKSFVEVTEEGTEAAAATGVGVRVLSAPFQESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IK+L    S    T LVLVNA+YFKG W   F  E T E  F + K  SKPV+MM   NSF   +L   + KILE+P+   +LSM+VLLP+EV  L+ +E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F +  AN +G++ +  L +S+  H +F+E++E+G E A +TGV   +  +P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|119916467|ref|XP_597345.3|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_597345</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>3.8417e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMRKREVDLYLPRFKVEESYDLVPTLRALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVGVRVLSAPFRESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV   +  +P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|297468643|ref|XP_002706208.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like isoform 2 [Bos taurus]</Hit_def>
+  <Hit_accession>XP_002706208</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.787</Hsp_bit-score>
+      <Hsp_score>569</Hsp_score>
+      <Hsp_evalue>5.52357e-67</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKELFPEDSLKSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVRMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMMVLLPNEVDGLQEVEDQLTAEKLIEWTSPQNMGNREVDLYLPRFKVEESYNLVPTLQALGMVDAFCGGVANFSGMNGSRDLAVSKVIHKSFVEVTEEGTEAAAATGVVFTRTSLPFRERFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IK+L    S    T LVLVNA+YFKG W   F  E T E  F + K  SKPV+MM   NSF   +L   + KILE+P+   +LSM+VLLP+EV  L+ +E  +  EKL EWT+P  M  R V +YLP+ K+EE YNL   L ALGM D F    AN +G++ +  L +S+ +H +F+E++E+G E A +TGV+      P  E+FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|466000380|ref|XP_004268261.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Orcinus orca]</Hit_def>
+  <Hit_accession>XP_004268261</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>223.016</Hsp_bit-score>
+      <Hsp_score>567</Hsp_score>
+      <Hsp_evalue>1.3152e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>147</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNKKIKDLFPGGSVSGSTVLVLVNAVYFKGQWHKEFEKEKTGEEKFWLSKDTSKPVQMMKQTDLFNFTSLEDMQVKILEIPYKGQELSMFLLLPNDVDGLQQLEDQLTAEKLIEWTSPQNMKERAMELYLPRFKVEETYDLKPMLRALGMVDAFTEGKADFSGMSSERKLMVSEVFHKSFVEVNEEGTEAAAVTGIVMVRKLAIEAENFHCDHPFLFLIKHNKTNSLLFYGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S    T LVLVNA+YFKG W   F  E T E  F ++K  SKPVQMM   + FN  +L   ++KILE+P+   +LSM +LLP++V  L+++E  +  EKL EWT+P  M++R +++YLP+ K+EE Y+L  +L ALGM D F    A+ +G+SS   L +S+  H +F+E++E+G E A  TG++   K + E+E F  DHPFLFLIKHN TN+++++GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|358418751|ref|XP_003584037.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 [Bos taurus]</Hit_def>
+  <Hit_accession>XP_003584037</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>2.43639e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNERIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEENTVEEKFWLNKDASKPVQMMKQTNSFNFMSLEDVQAKILEIPYKGSELSMMVLLPDEVDGLQELEDQLTAEKLIAWMSPQNMRKRQVDLYLPRFKVEESYDLVPTLQALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVEIIERAGRNSESFRCDRPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IKDL    S D  T LVLVNA+YFKG W   F  E+T E  F + K  SKPVQMM   NSFN  +L   + KILE+P+   +LSM+VLLPDEV  L+ +E  +  EKL  W +P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV    +    SE FR D PFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|297469278|ref|XP_001254790.3|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_001254790</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.246</Hsp_bit-score>
+      <Hsp_score>565</Hsp_score>
+      <Hsp_evalue>2.62542e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNERIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEENTVEEKFWLNKDASKPVQMMKQTNSFNFMSLEDVQAKILEIPYKGSELSMMVLLPDEVDGLQELEDQLTAEKLIAWMSPQNMRKRQVDLYLPRFKVEESYDLVPTLQALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVEIIERAGRNSESFRCDRPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IKDL    S D  T LVLVNA+YFKG W   F  E+T E  F + K  SKPVQMM   NSFN  +L   + KILE+P+   +LSM+VLLPDEV  L+ +E  +  EKL  W +P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV    +    SE FR D PFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|483506760|gb|EOA97658.1|</Hit_id>
+  <Hit_def>Serpin B11, partial [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>EOA97658</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>222.631</Hsp_bit-score>
+      <Hsp_score>566</Hsp_score>
+      <Hsp_evalue>3.74843e-66</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLF-IPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TKGKIKDLFAAGSIDPSTVLVLVNAIYFKGKWAVEFKKEDTKETYFRLNKNERKTVQMMFREGYFKLAIVEEPKIKVIELPYLNNELSMLILLPEVVHEDFTGLEQLENTLTYEKLAEWTSLDKMQQLTVKVYLPQFKMDESYVLNKTLQKMGVMNVFDWGKADLSGISMKDGLVMSKAIHKSSVEVNEEGTEAVAATQVVVMPLSRPISYEFKADHPFLFFIRHNPTNTILFFGRYSSP</Hsp_hseq>
+      <Hsp_midline>T+ +IKDL  + S D  T LVLVNAIYFKG W   F  EDT+E  F + K E K VQMM     F +A +   K+K++ELP+ + +LSML+LLP+ V +    LE++E T+ +EKL EWT+ + M++  VKVYLPQ K++E Y L   L  +G+ ++F    A+L+GIS  + L +S+A+H + +E++E+G E   +T V+      P S +F+ADHPFLF I+HNPTNTI++FGRY SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|483509066|gb|EOA98866.1|</Hit_id>
+  <Hit_def>Serpin B10, partial [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>EOA98866</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.861</Hsp_bit-score>
+      <Hsp_score>564</Hsp_score>
+      <Hsp_evalue>5.79352e-66</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>406</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>165</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TERKIQNLLPAGSLDSHTILVLVNAIYFKGNWEKRFPEKDTSETPFRLSKTRTKPVQMMFLRDTFLIFQETTMKFQVIELPYVENEVSMFILLPDDISDNTTGLELVERELTYEKLAEWSNSDSMMKAEVELYLPKLKLEENYDLKSTLSSMGIRNAFDPVQADFTGMSVKKDLFISKVIHKAFVEVNEEGTEAVAATGVLVMRTRTPKV-TFKADHPFLFFIRHNKSQTILFFGRFCSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL + S D  T LVLVNAIYFKG W+  F  +DT E PF ++K  +KPVQMM + ++F +      K +++ELP+   ++SM +LLPD++SD    LE +E+ + +EKL EW+N ++M K  V++YLP++K+EE Y+L S L ++G+ + F P  A+ TG+S  + L IS+ +H AF+E++E+G E   +TGV+     +P+   F+ADHPFLF I+HN + TI++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|119916469|ref|XP_001253954.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_001253954</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>6.10071e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMGKREVDLYLPRFKVEESYNLVPTLQALGMVDAFRGGVADFSGMTGSRDLAVSKVFHKSFVEVTEEGTEAAAATGVVIIRKSLTFREPFRCNHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR V +YLP+ K+EE YNL   L ALGM D F    A+ +G++ +  L +S+  H +F+E++E+G E A +TGV+   K     E FR +HPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|119923092|ref|XP_001254391.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_001254391</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.09</Hsp_bit-score>
+      <Hsp_score>562</Hsp_score>
+      <Hsp_evalue>6.57389e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMGKREVDLYLPRFKVEESYNLVPTLQALGMVDAFRGGVADFSGMTGSRDLAVSKVFHKSFVEVTEEGTEAAAATGVVIIRKSLTFREPFRCNHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR V +YLP+ K+EE YNL   L ALGM D F    A+ +G++ +  L +S+  H +F+E++E+G E A +TGV+   K     E FR +HPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>gi|359079439|ref|XP_002697900.2|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 [Bos taurus]</Hit_def>
+  <Hit_accession>XP_002697900</Hit_accession>
+  <Hit_len>536</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>7.38633e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>292</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMRKREVDLYLPRFKVEESYDLVPTLRALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVGVRVLSAPFRESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV   +  +P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>78.9518</Hsp_bit-score>
+      <Hsp_score>193</Hsp_score>
+      <Hsp_evalue>1.15435e-13</Hsp_evalue>
+      <Hsp_query-from>189</Hsp_query-from>
+      <Hsp_query-to>269</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>82</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>MTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFG</Hsp_qseq>
+      <Hsp_hseq>MVDAFCGGVANFSGMNGSRDLAVSKVIHKSFVEVTEEGTEAAAATGVVFTRTSLPFRERFRCDHPFLFLIKHIKTNSILFCG</Hsp_hseq>
+      <Hsp_midline>M D F    AN +G++ +  L +S+ +H +F+E++E+G E A +TGV+      P  E+FR DHPFLFLIKH  TN+I++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>gi|358420940|ref|XP_003584771.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 [Bos taurus]</Hit_def>
+  <Hit_accession>XP_003584771</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>8.95814e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNERIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEENTVEEKFWLNKDASKPVQMMKQTNSFNFMSLEDVQAKILEIPYKGSELSMMVLLPDEVDGLQELEDQLTAEKLIAWTSPQNMRKRQVDLYLPRFKVEESYDLVPTLQALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKSFVEVTEEGTEAAAATDVEIIERAGRNSESFRCNHPFLFLIKHIKTSSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IKDL    S D  T LVLVNA+YFKG W   F  E+T E  F + K  SKPVQMM   NSFN  +L   + KILE+P+   +LSM+VLLPDEV  L+ +E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H +F+E++E+G E A +T V    +    SE FR +HPFLFLIKH  T++I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>gi|297459238|ref|XP_001254006.3|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Bos taurus]</Hit_def>
+  <Hit_accession>XP_001254006</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>220.705</Hsp_bit-score>
+      <Hsp_score>561</Hsp_score>
+      <Hsp_evalue>9.34877e-66</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNERIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEENTVEEKFWLNKDASKPVQMMKQTNSFNFMSLEDVQAKILEIPYKGSELSMMVLLPDEVDGLQELEDQLTAEKLIAWTSPQNMRKRQVDLYLPRFKVEESYDLVPTLQALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKSFVEVTEEGTEAAAATDVEIIERAGRNSESFRCNHPFLFLIKHIKTSSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IKDL    S D  T LVLVNA+YFKG W   F  E+T E  F + K  SKPVQMM   NSFN  +L   + KILE+P+   +LSM+VLLPDEV  L+ +E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H +F+E++E+G E A +T V    +    SE FR +HPFLFLIKH  T++I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>gi|297702752|ref|XP_002828330.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002828330</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.935</Hsp_bit-score>
+      <Hsp_score>559</Hsp_score>
+      <Hsp_evalue>1.8115e-65</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHS-PESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNEKIKNLIPDGAIGNDTTLVLVNAIYFKGQWEKKFNKEHTKEEKFRPNKNTYKSIQMMRQHTSFHFASLEDVQAKVLEIPYKGKDLSMIVLLPNEIDGLQKLEEKLTAEKLLEWTSSQNMRETHVDLHLPRFKVEESYDLKDTLRTMGMVDIFNGDADLSGMTGSRGLMVSKVLHKAFVEVTEEGAEASAATAVVVKVTSSRPTNEEFHCNHPFLFFIRQNKTNSILFYGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T ++IK+L+   +   DTTLVLVNAIYFKG W+  FN E T+E  F   K   K +QMM  + SF+ A+L   + K+LE+P+   DLSM+VLLP+E+  L+++E+ +  EKL EWT+   M +  V ++LP+ K+EE Y+L   L  +GM D+F   A+L+G++ +  L +S+ +H AF+E++E+G E + +T V+  +  S P +E+F  +HPFLF I+ N TN+I+++GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>gi|296473654|tpg|DAA15769.1|</Hit_id>
+  <Hit_def>TPA: serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 4-like [Bos taurus]</Hit_def>
+  <Hit_accession>DAA15769</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>1.84172e-65</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>325</Hsp_hit-from>
+      <Hsp_hit-to>569</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNGKIKDLFPKDSLDSSTVLVLVNAVYFKGQWNQKFKEEHTAEEKFWLNKDTSKPVQMMKQTNSFKFVSLEDVQAKILEIPYKGEELSMLVLLPNEVDGLQELEDQLTAEKLIAWTSPQNMRKREVDLYLPRFKVEESYDLVPTLRALGMVDAFRDGVADFSGMTGGRDLVVSKVFHKCFVEVTEEGTEAAAATGVGVRVLSAPFRESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IKDL    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   NSF   +L   + KILE+P+   +LSMLVLLP+EV  L+ +E  +  EKL  WT+P  M KR V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H  F+E++E+G E A +TGV   +  +P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>8.18605e-32</Hsp_evalue>
+      <Hsp_query-from>142</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGR</Hsp_qseq>
+      <Hsp_hseq>VEDQLTAEKLIEWTSPQNMGNREVDLYLPRFKVEESYNLVPTLQALGMVDAFCGGVANFSGMNGSRDLAVSKVIHKSFVEVTEEGTEAAAATGVVFTRTSLPFRERFRCDHPFLFLIKHIKTNSILFCGR</Hsp_hseq>
+      <Hsp_midline>+E  +  EKL EWT+P  M  R V +YLP+ K+EE YNL   L ALGM D F    AN +G++ +  L +S+ +H +F+E++E+G E A +TGV+      P  E+FR DHPFLFLIKH  TN+I++ GR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>gi|281342037|gb|EFB17621.1|</Hit_id>
+  <Hit_def>hypothetical protein PANDA_016050 [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>EFB17621</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>3.19748e-65</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKISEILGAGAVDPLTKLVLVNAIYFKGKWNEQFDRKHTRGMPFK-TNQEKKTVQMMFKQARFHVGYVDAVHAQVLELPYAGRELSMVVLLPDDNTGLAVVEKALTYEKFRAWTNPEKMTKDKVQVFLPRLKLEESYDLEPFLRRLGMTDAFEEARADFSGMSAKKNVPVSKVAHKCFVEVNEEGTEAAGATAVVRNSRCSRPEPRFCADHPFLFFITHRSTNSIVFCGRFCSP</Hsp_hseq>
+      <Hsp_midline>TE +I ++L + + D  T LVLVNAIYFKG W   F+ + TR MPF  T QE K VQMM     F+V  + A   ++LELP+A  +LSM+VLLPD+ + L  +EK + +EK   WTNP  M K +V+V+LP++K+EE Y+L   L  LGMTD F  + A+ +G+S+ +++ +S+  H  F+E++E+G E AG+T V+ + + S    +F ADHPFLF I H  TN+IV+ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>gi|301781979|ref|XP_002926410.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B8-like [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_002926410</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>3.69112e-65</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKISEILGAGAVDPLTKLVLVNAIYFKGKWNEQFDRKHTRGMPFK-TNQEKKTVQMMFKQARFHVGYVDAVHAQVLELPYAGRELSMVVLLPDDNTGLAVVEKALTYEKFRAWTNPEKMTKDKVQVFLPRLKLEESYDLEPFLRRLGMTDAFEEARADFSGMSAKKNVPVSKVAHKCFVEVNEEGTEAAGATAVVRNSRCSRPEPRFCADHPFLFFITHRSTNSIVFCGRFCSP</Hsp_hseq>
+      <Hsp_midline>TE +I ++L + + D  T LVLVNAIYFKG W   F+ + TR MPF  T QE K VQMM     F+V  + A   ++LELP+A  +LSM+VLLPD+ + L  +EK + +EK   WTNP  M K +V+V+LP++K+EE Y+L   L  LGMTD F  + A+ +G+S+ +++ +S+  H  F+E++E+G E AG+T V+ + + S    +F ADHPFLF I H  TN+IV+ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>gi|402865602|ref|XP_003897003.1|</Hit_id>
+  <Hit_def>PREDICTED: LOW QUALITY PROTEIN: serpin B9 [Papio anubis]</Hit_def>
+  <Hit_accession>XP_003897003</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>4.26071e-65</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIEELLPGSSIDAETRLVLVNAVYFKGKWDEQFDETYTREMPFKIKQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYAGEELSLLVLLPDDGVELSTVEKNLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLQRLGMVDAFQQGKADLSAMSAEGDLCLSKFVHKSFVEVNEEGTEAAAASGCIVIAECCMESGPRFCADHPFLFFIRHNRANSLLFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL  SS D +T LVLVNA+YFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK + FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LGM D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++G I   +   ES  +F ADHPFLF I+HN  N++++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>gi|301781989|ref|XP_002926409.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like [Ailuropoda melanoleuca] &gt;gi|281342043|gb|EFB17627.1| hypothetical protein PANDA_016056 [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_002926409</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.164</Hsp_bit-score>
+      <Hsp_score>557</Hsp_score>
+      <Hsp_evalue>4.27996e-65</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLF-IPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTHEKIKNLFPKDSL-TSTILVLVNAVYFKGQWDTKFDKKNTVEKEFWLNKDTSKPVQMMKQHNVFKFTSLEGMQAKILEIPYKGKDLSMILLLPDEVDGLRKLEDQLTAEKLIEWTSSENMSDNFVDLYLPRFKVEETYNLKDTLRALGMVDVFSAQRANLSGMTGKENLVVSKVIHKSFVEVTEEGTEAASST-VVDFIMKSPPTYSFDCDHPFLFFIKHNKTNSILFLGRVSSP</Hsp_hseq>
+      <Hsp_midline>E  T ++IK+L    S    T LVLVNA+YFKG W T F+ ++T E  F + K  SKPVQMM  +N F   +L   + KILE+P+   DLSM++LLPDEV  L ++E  +  EKL EWT+   M    V +YLP+ K+EE YNL   L ALGM D+F    ANL+G++  E+L +S+ +H +F+E++E+G E A ST V++ I  SP +  F  DHPFLF IKHN TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>gi|40018548|ref|NP_954516.1|</Hit_id>
+  <Hit_def>serpin B6 [Rattus norvegicus] &gt;gi|38014574|gb|AAH60594.1| Serine (or cysteine) peptidase inhibitor, clade B, member 6a [Rattus norvegicus] &gt;gi|149045246|gb|EDL98332.1| serine (or cysteine) peptidase inhibitor, clade B, member 6a, isoform CRA_a [Rattus norvegicus] &gt;gi|149045247|gb|EDL98333.1| serine (or cysteine) peptidase inhibitor, clade B, member 6a, isoform CRA_a [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_954516</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.779</Hsp_bit-score>
+      <Hsp_score>556</Hsp_score>
+      <Hsp_evalue>4.32012e-65</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEDKIKELLAPGIVDPDTVLVLVNAIYFKGNWDKQFNKEHTREKPFKVSKTEEKPVQMMFMKSTFKMTYIGEIFTKILLLPYAGNELNMIIMLPDEHIELKTVEKELTYEKFIEWTRLDMLDEEEVEVFLPRFKLEENYDMKVVLGKLGMTDAFMEGRADFSGIASKQGLFLSKVIHKAFVEVNEEGTEAVAATGSTITMRCLRFTPRFLADHPFLFFIQHVKTKGILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TED+IK+LL     D DT LVLVNAIYFKG W   FN E TRE PF V+K E KPVQMM M ++F +  +     KIL LP+A  +L+M+++LPDE  +L+ +EK + +EK  EWT  + +++  V+V+LP+ K+EE Y++  VL  LGMTD F+   A+ +GI+S + L +S+ +H AF+E++E+G E   +TG    ++    + +F ADHPFLF I+H  T  I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>gi|355748197|gb|EHH52680.1|</Hit_id>
+  <Hit_def>Cytoplasmic antiproteinase 3 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>EHH52680</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>4.3994e-65</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIEELLPGSSIDAETRLVLVNAVYFKGKWDEQFDETYTREMPFKIKQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYAGEELSLLVLLPDDGVELSTVEKNLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRRLGMVDAFQQGKADLSAMSAEGDLCLSKFVHKSFVEVNEEGTEAAAASGCIVIAECCMESGPRFCADHPFLFFIRHNRANSLLFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL  SS D +T LVLVNA+YFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK + FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LGM D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++G I   +   ES  +F ADHPFLF I+HN  N++++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>gi|388452384|ref|NP_001253922.1|</Hit_id>
+  <Hit_def>serpin B9 [Macaca mulatta] &gt;gi|355561281|gb|EHH17913.1| Cytoplasmic antiproteinase 3 [Macaca mulatta]</Hit_def>
+  <Hit_accession>NP_001253922</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>5.10872e-65</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIEELLPGSSIDAETRLVLVNAVYFKGKWDEQFDETYTREMPFKIKQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYAGEELSLLVLLPDDGVELSTVEKNLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRRLGMVDAFQQGKADLSAMSAEGDLCLSKFVHKSFVEVNEEGTEAAAASGCIVIAECCMESGPRFCADHPFLFFIRHNRANSLLFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL  SS D +T LVLVNA+YFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK + FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LGM D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++G I   +   ES  +F ADHPFLF I+HN  N++++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>gi|301789393|ref|XP_002930113.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9-like [Ailuropoda melanoleuca] &gt;gi|281342380|gb|EFB17964.1| hypothetical protein PANDA_020463 [Ailuropoda melanoleuca]</Hit_def>
+  <Hit_accession>XP_002930113</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.01784e-64</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIRDLLPSSSVSADTRLILVNAIYFRGRWDEQFNKMYTREMPFKINQKEQRPVQMMFQEAMFKLAYIKEVQTQVLELPYAGEELSMVILLPDDHVDLSLVEKNLTLEKFRAWTRPDRLRGVEVEVFLPRFQLEGDYDMGSVLQGLGMVDAFQEDKADLSALSGERGLCLSKFVHKSFVEVNEEGTEAAAASGIVVLECCSAPGPTFCADHPFLFFIRHNAANTILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I+DLL SSS   DT L+LVNAIYF+G W   FN   TREMPF + ++E +PVQMM     F +A +   + ++LELP+A  +LSM++LLPD+  DL  +EK +  EK   WT P+ +    V+V+LP+ ++E  Y++ SVL  LGM D F    A+L+ +S    L +S+ VH +F+E++E+G E A ++G++     S     F ADHPFLF I+HN  NTI++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>gi|345327280|ref|XP_001514003.2|</Hit_id>
+  <Hit_def>PREDICTED: plasminogen activator inhibitor 2-like [Ornithorhynchus anatinus]</Hit_def>
+  <Hit_accession>XP_001514003</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>1.07657e-64</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EIQTKGKIPALLPEGTVDEETKMILVNAVYFKGKWENQFQKKATKQQPFQVNLSQHKPVQMMHQKAKLQIGYIEDLKTQVLELPY-KGDISMFLLLPDEINDSSTGLDQLEKELTYEKLNEWTSKSTMKKGLVYVYLPQFKLEENCELKSILSSMGMKDAFTPGKANFSGMSEKNNLFLSQVFHKASVEVNEEGTEAAAGSGAVTSGRTGYVELQFVADHPFLFFIKHNKTNSILFYGRFCSP</Hsp_hseq>
+      <Hsp_midline>E+ T+ +I  LL   + D +T ++LVNA+YFKG W+  F  + T++ PF V   + KPVQMM       +  +   K ++LELP+  GD+SM +LLPDE++D    L+++EK + +EKL EWT+ +TM+K  V VYLPQ K+EE   L S+L ++GM D F P  AN +G+S   +L +SQ  H A +E++E+G E A  +G +   +      QF ADHPFLF IKHN TN+I+++GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>gi|426253891|ref|XP_004020624.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like [Ovis aries]</Hit_def>
+  <Hit_accession>XP_004020624</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.28064e-64</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MIN--RELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGV-IEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINCWVECQTNERIKGLFPKDSLDSTTVLVLVNAVYFKGQWNQKFQEESTAEEKFWLNKDTSKPVQMMKQTDSFNFVSLEDVQAKILEIPYKGEELSMMVLLPNKVDGLQKLEDQLTAEKLIAWTSPQNMGKRQVHLYLPRFKVEESYDLVPTLQALGMVDAFRDEVADFSGMTRKYDLVVSKVFHKSFVEVTEEGTEAAAATGVGVSVVTSLPFHESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IK L    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   +SFN  +L   + KILE+P+   +LSM+VLLP++V  L+++E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F    A+ +G++    L +S+  H +F+E++E+G E A +TGV +  +   P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>gi|449492335|ref|XP_002197516.2|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like [Taeniopygia guttata]</Hit_def>
+  <Hit_accession>XP_002197516</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.238</Hsp_bit-score>
+      <Hsp_score>552</Hsp_score>
+      <Hsp_evalue>2.48548e-64</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLP----DEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLF-IPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TKGKIKDLFAAGFIDPSTVLVLVNAIYFKGKWAVEFKKEDTKEAFFHLNKNERRKVQMMFQEGYFNMAIIEELKTKVIELQYFNNELSMFILLPEDDCEDFTGLEQLECALTYEKLAEWTSLATMQPLRVKVFLPQFKMEESYVLNNTLQEMGVMNVFDWGKADLSGISMKDGLAVSKAIQKTIVEVNEEGTEAGCSTGLLAMPLCCPVTCEFRADHPFLFFIRHNQTNTILFFGRYSSP</Hsp_hseq>
+      <Hsp_midline>T+ +IKDL  +   D  T LVLVNAIYFKG W   F  EDT+E  FH+ K E + VQMM     FN+A +   K K++EL + + +LSM +LLP    ++ + LE++E  + +EKL EWT+  TM+  RVKV+LPQ K+EE Y L + L  +G+ ++F    A+L+GIS  + L +S+A+    +E++E+G E   STG++      P + +FRADHPFLF I+HN TNTI++FGRY SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>gi|57770435|ref|NP_001009892.1|</Hit_id>
+  <Hit_def>serpin peptidase inhibitor, clade B (ovalbumin), member 1, like 1 [Danio rerio] &gt;gi|37681941|gb|AAQ97848.1| serine proteinase inhibitor, clade B, member 1 [Danio rerio] &gt;gi|190339248|gb|AAI62112.1| Serpin peptidase inhibitor, clade B (ovalbumin), member 1, like 1 [Danio rerio] &gt;gi|190339250|gb|AAI62487.1| Serpin peptidase inhibitor, clade B (ovalbumin), member 1, like 1 [Danio rerio] &gt;gi|190339612|gb|AAI62929.1| Serpin peptidase inhibitor, clade B (ovalbumin), member 1, like 1 [Danio rerio]</Hit_def>
+  <Hit_accession>NP_001009892</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>3.93476e-64</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKNTQEKIKDLLPSGAIDAMTRLVLVNAIYFKGNWEEKFPKEATRDGVFRLNKNQTKPVKMMHQKAEFPSGYIEEMKSHVLELPYAGKNLSMLIILPDEIEDATTGLEKLERALTYEKLMEWTKPEVMHQREVQVSLPKFKTEQTYDMKSLLVSMGMEDVFDPQKVNLTGMSSSNDLVLSKVIHKAFVEVNEEGTEAAAATAAIAKFLCYIPPVSFNADHPFLFFIRHNPTKSILFYGRFCSP</Hsp_hseq>
+      <Hsp_midline>E  T+++IKDLL S + D  T LVLVNAIYFKG W+  F  E TR+  F + K ++KPV+MM     F    +   K  +LELP+A  +LSML++LPDE+ D    LE++E+ + +EKL EWT P  M +R V+V LP+ K E+ Y++ S+L+++GM D+F P   NLTG+SS+  L +S+ +H AF+E++E+G E A +T  I           F ADHPFLF I+HNPT +I+++GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>gi|410926948|ref|XP_003976930.1|</Hit_id>
+  <Hit_def>PREDICTED: leukocyte elastase inhibitor-like [Takifugu rubripes]</Hit_def>
+  <Hit_accession>XP_003976930</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>4.71676e-64</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSA-NLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKQTEGKIKDLLGSDDVTGDTRLVLVNAIYFKGNWNEQFKENATRDATFHISKNSSKPVKMMNQTSKFPFVFISEANCQVLQLPYVGKELSMLIFLPNQIEDSTTGLEKLEKLLTYDNFMEWTRPETMKEVEVQVGLPRFKMEEKCNMKNILVSMGMVDAFNEAASDFSGISPANDLFLSDVVHKAFVEVNEEGTEASAATGAVFKFRCARRTETFVADHPFLFFIRHNPSRNILFAGRYCFP</Hsp_hseq>
+      <Hsp_midline>E  TE +IKDLL S     DT LVLVNAIYFKG W   F    TR+  FH++K  SKPV+MM   + F    +     ++L+LP+   +LSML+ LP+++ D    LE++EK + ++   EWT P TM++  V+V LP+ K+EEK N+ ++L+++GM D F  +A + +GIS A  L +S  VH AF+E++E+G E + +TG +   + +  +E F ADHPFLF I+HNP+  I++ GRY  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>gi|183396424|gb|ACC62103.1|</Hit_id>
+  <Hit_def>SCCA2/SCCA1 fusion protein isoform 1 (predicted) [Rhinolophus ferrumequinum]</Hit_def>
+  <Hit_accession>ACC62103</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>4.7699e-64</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNEKIKNLFPEDSLDSSTILVLVNAVYFKGQWNEKFDPKNTEQGEFWQNKDTSKPVQMMKQTSYFNFTSLEDVQAKILEIPYKGEDLSMLLLLPNEIDGLQKLEDQLTAEKLIEWTSSQNMSKRKVELRLPRFKVEESYALGDTMRALGMGNAFTPGDADFSGMTGSRGFVLSQIVHKSFVEVTEEGTEAAAATGIVIGRTSVQMYEHFHCDHPFLFFIKHNETNSILFFGRISTP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IK+L    S D  T LVLVNA+YFKG W   F+ ++T +  F   K  SKPVQMM   + FN  +L   + KILE+P+   DLSML+LLP+E+  L+++E  +  EKL EWT+   M KR+V++ LP+ K+EE Y L   + ALGM + F P  A+ +G++ +    +SQ VH +F+E++E+G E A +TG++         E F  DHPFLF IKHN TN+I++FGR  +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>gi|297676992|ref|XP_002816396.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9 [Pongo abelii]</Hit_def>
+  <Hit_accession>XP_002816396</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>5.76131e-64</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIEELLPGSSIDAETRLVLVNAIYFKGKWNESFDETYTREMPFKINQEEQRPVQMMYQEATFKLAHLGEVRAQLLELPYAGKELSLLVLLPDDGVELSTVEKSLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEHYDMESVLRHLGIVDAFQQGKADLSAMSVERDLCLSKFVHKSFVEVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSLLFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL  SS D +T LVLVNAIYFKG W  +F+   TREMPF + ++E +PVQMM    +F +A L   + ++LELP+A  +LS+LVLLPD+  +L  +EK++ FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LG+ D F    A+L+ +S    L +S+ VH +F+E++E+G E A ++      +   ES  +F ADHPFLF I+HN  N++++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>gi|4758906|ref|NP_004146.1|</Hit_id>
+  <Hit_def>serpin B9 [Homo sapiens] &gt;gi|1709896|sp|P50453.1|SPB9_HUMAN RecName: Full=Serpin B9; AltName: Full=Cytoplasmic antiproteinase 3; Short=CAP-3; Short=CAP3; AltName: Full=Peptidase inhibitor 9; Short=PI-9 &gt;gi|1160929|gb|AAC41940.1| cytoplasmic antiproteinase 3 [Homo sapiens] &gt;gi|1613850|gb|AAC50793.1| serine proteinase inhibitor [Homo sapiens] &gt;gi|12803429|gb|AAH02538.1| Serpin peptidase inhibitor, clade B (ovalbumin), member 9 [Homo sapiens] &gt;gi|20302479|dbj|BAB91078.1| serine protease inhibitor 9 [Homo sapiens] &gt;gi|30582185|gb|AAP35319.1| serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 9 [Homo sapiens] &gt;gi|47115191|emb|CAG28555.1| SERPINB9 [Homo sapiens] &gt;gi|60655127|gb|AAX32127.1| serine or cysteine proteinase inhibitor clade B member 9 [synthetic construct] &gt;gi|60655129|gb|AAX32128.1| serine or cysteine proteinase inhibitor clade B member 9 [synthetic construct] &gt;gi|119575497|gb|EAW55093.1| serpin peptidase inhibitor, clade B (ovalbumin), member 9, isoform CRA_a [Homo sapiens] &gt;gi|119575498|gb|EAW55094.1| serpin peptidase inhibitor, clade B (ovalbumin), member 9, isoform CRA_a [Homo sapiens] &gt;gi|119575499|gb|EAW55095.1| serpin peptidase inhibitor, clade B (ovalbumin), member 9, isoform CRA_a [Homo sapiens] &gt;gi|123979742|gb|ABM81700.1| serpin peptidase inhibitor, clade B (ovalbumin), member 9 [synthetic construct] &gt;gi|123994517|gb|ABM84860.1| serpin peptidase inhibitor, clade B (ovalbumin), member 9 [synthetic construct] &gt;gi|189054574|dbj|BAG37360.1| unnamed protein product [Homo sapiens] &gt;gi|261861390|dbj|BAI47217.1| serpin peptidase inhibitor, clade B (ovalbumin), member 9 [synthetic construct]</Hit_def>
+  <Hit_accession>NP_004146</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>6.76119e-64</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>ROTEINOVALBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>RAAEESRKHINTWVSKK--TEGKIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDETYTREMPFKINQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYARKELSLLVLLPDDGVELSTVEKSLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRHLGIVDAFQQGKADLSAMSAERDLCLSKFVHKSFVEVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>R  E +   ++  ++++  TE +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK++ FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LG+ D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++      +   ES  +F ADHPFLF I+HN  N+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>gi|426351414|ref|XP_004043241.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9 [Gorilla gorilla gorilla]</Hit_def>
+  <Hit_accession>XP_004043241</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>7.36359e-64</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>ROTEINOVALBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>RAAEESRKHINTWVSKK--TEGKIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDETYTREMPFKINQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYAGKELSLLVLLPDDGVELSTVEKSLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRHLGIVDAFQQGKADLSAMSAERDLCLSKFVHKSFVEVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>R  E +   ++  ++++  TE +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK++ FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LG+ D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++      +   ES  +F ADHPFLF I+HN  N+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>gi|30584889|gb|AAP36700.1|</Hit_id>
+  <Hit_def>Homo sapiens serine (or cysteine) proteinase inhibitor, clade B (ovalbumin), member 9 [synthetic construct] &gt;gi|61371900|gb|AAX43752.1| serine or cysteine proteinase inhibitor clade B member 9 [synthetic construct] &gt;gi|61371906|gb|AAX43753.1| serine or cysteine proteinase inhibitor clade B member 9 [synthetic construct]</Hit_def>
+  <Hit_accession>AAP36700</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>7.55566e-64</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>ROTEINOVALBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>RAAEESRKHINTWVSKK--TEGKIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDETYTREMPFKINQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYARKELSLLVLLPDDGVELSTVEKSLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRHLGIVDAFQQGKADLSAMSAERDLCLSKFVHKSFVEVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>R  E +   ++  ++++  TE +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK++ FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LG+ D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++      +   ES  +F ADHPFLF I+HN  N+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>gi|126320919|ref|XP_001365788.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B11-like [Monodelphis domestica]</Hit_def>
+  <Hit_accession>XP_001365788</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>8.0085e-64</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESKTNGKVKNLFSKGTIDTSSIMVLVNAIYFKGQWQSKFQEEQTIQMPFKLREGRSVPVQMMHQIGTFKVALIKEPQMQVLELPYASGNLSMIVLLPKDTDQIEQIEKQLNLKTFKQWTN-SLMTEREVDVHFPRFKLGMKYELNSLLKALGITDIFDHLKADLSGLSPSRELYLSKVIHESFVDVNEEGTEASAATGDIVVVKRLPIRDRFIADHPFLFFIKHINTNTILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T  ++K+L    + D  + +VLVNAIYFKG W++ F  E T +MPF + +  S PVQMM    +F VA +   +M++LELP+ASG+LSM+VLLP +   +E+IEK +N +   +WTN + M +R V V+ P+ K+  KY L S+L ALG+TD+F    A+L+G+S +  L +S+ +H +F++++E+G E + +TG I  +K  P  ++F ADHPFLF IKH  TNTI++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>gi|397467841|ref|XP_003805610.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9 [Pan paniscus]</Hit_def>
+  <Hit_accession>XP_003805610</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>8.28046e-64</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>ROTEINOVALBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>RAAEESRKHINTWVSKK--TEGKIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDDTYTREMPFKINQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYAGKELSLLVLLPDDGVELSTVEKSLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRHLGIVDAFQQGKADLSAMSAERDLCLSKFVHKSFVEVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>R  E +   ++  ++++  TE +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK++ FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LG+ D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++      +   ES  +F ADHPFLF I+HN  N+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>gi|507541715|ref|XP_004654855.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4 [Jaculus jaculus]</Hit_def>
+  <Hit_accession>XP_004654855</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>8.99331e-64</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>150</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTDEKIKDLFPMRTLDRQTVLVLVNAVYFKGLWNEKFEKKHTKEEKFWLNKDTSKPVQMMKQTNHFKLAFLEDVQATVLEMPYKGERLSMFVLLPNEVDGLQQLEDKLTAEKLIEWIKPQAMGEREVHLSIPRFKVEENYDLKTVLGHMGIVDAFNPQKADFSGISGGHDLVVSRVRHKSFVEVTEEGTEAAAATGVEISVMSAPIVEYFSCDHPFLFFIKENETNNILFFGRFFSP</Hsp_hseq>
+      <Hsp_midline>E  T+++IKDL    + D  T LVLVNA+YFKG+W   F  + T+E  F + K  SKPVQMM   N F +A L   +  +LE+P+    LSM VLLP+EV  L+++E  +  EKL EW  P  M +R V + +P+ K+EE Y+L +VL  +G+ D F P  A+ +GIS    L +S+  H +F+E++E+G E A +TGV   +  +P  E F  DHPFLF IK N TN I++FGR++SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>gi|114605208|ref|XP_001160054.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9 isoform 3 [Pan troglodytes]</Hit_def>
+  <Hit_accession>XP_001160054</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>9.82158e-64</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>168</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>256</Hsp_align-len>
+      <Hsp_qseq>ROTEINOVALBUMINRELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESE-QFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>RAAEESRKHINTWVSKK--TEGKIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDDTYTREMPFKINQEEQRPVQMMYQEATFKLAHVGEVRAQLLELPYAGKELSLLVLLPDDGVELSTVEKSLTFEKLTAWTKPDCMKSTEVEVLLPKFKLQEDYDMESVLRHLGIVDAFQQGKADLSAMSAERDLCLSKFVHKSFVEVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>R  E +   ++  ++++  TE +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    +F +A +   + ++LELP+A  +LS+LVLLPD+  +L  +EK++ FEKLT WT P+ M+   V+V LP+ K++E Y++ SVL  LG+ D F    A+L+ +S+   L +S+ VH +F+E++E+G E A ++      +   ES  +F ADHPFLF I+HN  N+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>gi|216397617|gb|ACJ72837.1|</Hit_id>
+  <Hit_def>serine proteinase inhibitor, clade B, member 4 (predicted) [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>ACJ72837</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.00223e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGKIKNLFPSGTLNSTTILVLVNAIYFKGEWDEKFNKEKTKEDKFWLNKNTSKPVQMMKQRNHFNFALLEDVQAKILEIPYKGKDLSMIVLLPNEIDGLQKLEEQLTAEKLIKWMSSQNMKKTYVKLHLPKFKIEEKYELSSVLEAMGVVDAFSPQNANLSGMSEHQGLVVSKVLHKSFVELAEEGTEAAAATGMVIRVTSAQMHEEFFCDHPFLFLIKQNKTNSILFFGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T  +IK+L  S + +  T LVLVNAIYFKG W   FN E T+E  F + K  SKPVQMM   N FN A L   + KILE+P+   DLSM+VLLP+E+  L+++E+ +  EKL +W +   M+K  VK++LP+ KIEEKY L+SVL A+G+ D F P +ANL+G+S  + L +S+ +H +F+EL+E+G E A +TG++  +  +   E+F  DHPFLFLIK N TN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>gi|354468797|ref|XP_003496837.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9-like [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003496837</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.00514e-63</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLF-IPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIPELLSGCSVDSETRLVFVNALYFKGRWHQQFHKDCTMEMPFKINKKEKRPVQMMCREDTFHLAYVNEVQAQVLVMPYEGMELSMVVLLPDDGVDLSKLENSLTFEKLTAWTRPDFMKSTNVEVFLPKFKLQEDYDMESVFQQLGMVDVFHRDKADLSGMSPERDLCVSKFVHKSVVEVNEEGTEAAAASAVIEFCCASV-VPTFCADHPFLFFIRHNKTNSLLFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I +LL   S D +T LV VNA+YFKG W   F+ + T EMPF + K+E +PVQMMC  ++F++A +   + ++L +P+   +LSM+VLLPD+  DL ++E ++ FEKLT WT P+ M+   V+V+LP+ K++E Y++ SV   LGM D+F    A+L+G+S    L +S+ VH + +E++E+G E A ++ VIE    S     F ADHPFLF I+HN TN++++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>gi|327281783|ref|XP_003225626.1|</Hit_id>
+  <Hit_def>PREDICTED: leukocyte elastase inhibitor-like [Anolis carolinensis]</Hit_def>
+  <Hit_accession>XP_003225626</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.07681e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTM-EKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLF-IPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EGQTEGKIRELLSEGSVNELTKLVLVNAIYFKGSWEEKFKEEDTTDMPFRLSKKEKKNVKMMFMKKKFPFGYIDECKCRVLELPYKGKELSMIILLPDDIEDDSTGLERLEKQLTIDKLQEWTLPRNMYSHNEVYVHLPKFKLEESYDLKTYLSALGLRDVFDAGKANLSGMSGARDLHVSKIVHKSFVEVNEEGTEAAAATVVAVMLCSLPMEDDFNADHPFLFFIRHNPTSTILFFGKFASP</Hsp_hseq>
+      <Hsp_midline>E  TE +I++LL   S +  T LVLVNAIYFKG W+  F  EDT +MPF ++K+E K V+MM M   F    +   K ++LELP+   +LSM++LLPD++ D    LER+EK +  +KL EWT P  M     V V+LP+ K+EE Y+L + L ALG+ D+F    ANL+G+S A  L +S+ VH +F+E++E+G E A +T V   +   P  + F ADHPFLF I+HNPT+TI++FG++ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>gi|354502324|ref|XP_003513237.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B6 isoform 1 [Cricetulus griseus] &gt;gi|344259032|gb|EGW15136.1| Serpin B6 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003513237</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.1023e-63</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEDKIKELLSQGSVNSDTLLVLVNAIYFKGNWKEQFNKEDTREMYFKVNKDEEKPVQMMFKKSTFKMTYIGEIFTKILLLPYVGNELNMIIMLPDEHIDLRTVEKEITYEKFMEWTRLDKMDEEKVEVFLPRFKLEENYDMKDVLCKLGMTDAFEDRADFSGMSSKKGLFLSKVVHKSFVEVNEEGTEAAAATAAIIMMRCAMSVPRFCADHPFLFFIQHVKTNGILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TED+IK+LL   S + DT LVLVNAIYFKG WK  FN EDTREM F V K E KPVQMM   ++F +  +     KIL LP+   +L+M+++LPDE  DL  +EK I +EK  EWT  + M++ +V+V+LP+ K+EE Y++  VL  LGMTD F   A+ +G+SS + L +S+ VH +F+E++E+G E A +T  I  ++ +    +F ADHPFLF I+H  TN I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>gi|426253893|ref|XP_004020625.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B4-like [Ovis aries]</Hit_def>
+  <Hit_accession>XP_004020625</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.10556e-63</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>246</Hsp_align-len>
+      <Hsp_qseq>MIN--RELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGV-IEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINCWVECQTNGRIKNLFQNSLNG--SVLVLVNAVYFKGQWQEEFKKENTVEEKFWLNKDTSKPVQMMKQTSHFNFVSLEDVQAKILEIPYKGGELSMLVLLPSEVDGLQEVEDQLTAEKLIAWTSPQNMGKRQVHLYLPRFKVEESYDLVPKLKALGMVDAFHDGAADFSGMTGRRDLAVSTVVHKCFVEVTEEGTEAAAATGVGVSVVTSLPFHESFRCDHPFLFLIKHIKTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T  +IK+L  +S     + LVLVNA+YFKG W+  F  E+T E  F + K  SKPVQMM   + FN  +L   + KILE+P+  G+LSMLVLLP EV  L+ +E  +  EKL  WT+P  M KR+V +YLP+ K+EE Y+L   L ALGM D F   +A+ +G++    L +S  VH  F+E++E+G E A +TGV +  +   P  E FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>gi|64653183|gb|AAH96218.1|</Hit_id>
+  <Hit_def>Serpin peptidase inhibitor, clade B (ovalbumin), member 10 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH96218</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.17687e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ERQTEGKIQNLLPDDSVDSTTRMILVNALYFKGIWEHQFLVQNTTEKPFRINETTSKPVQMMFMKKKLHIFHIEKPKAVGLQLYYKSCDLSLLILLPEDINGLEQLEKAITYEKLNEWTSADMMELYEVQLHLPKFKLEDSYDLKSTLSSMGMSDAFSQSKADFSGMSSARNLFLSNVFHKAFVEINEQGTEAAAGSGSEIDIRIRVPSIEFNANHPFLFFIRHNKTNTILFYGRLCSP</Hsp_hseq>
+      <Hsp_midline>E  TE +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M    ++  +   K   L+L + S DLS+L+LLP++++ LE++EK I +EKL EWT+ + ME   V+++LP+ K+E+ Y+L S L ++GM+D F  S A+ +G+SSA +L +S   H AF+E++E G E A  +G   DI+    S +F A+HPFLF I+HN TNTI+++GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>gi|354502326|ref|XP_003513238.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B6 isoform 2 [Cricetulus griseus]</Hit_def>
+  <Hit_accession>XP_003513238</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>1.18549e-63</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEDKIKELLSQGSVNSDTLLVLVNAIYFKGNWKEQFNKEDTREMYFKVNKDEEKPVQMMFKKSTFKMTYIGEIFTKILLLPYVGNELNMIIMLPDEHIDLRTVEKEITYEKFMEWTRLDKMDEEKVEVFLPRFKLEENYDMKDVLCKLGMTDAFEDRADFSGMSSKKGLFLSKVVHKSFVEVNEEGTEAAAATAAIIMMRCAMSVPRFCADHPFLFFIQHVKTNGILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TED+IK+LL   S + DT LVLVNAIYFKG WK  FN EDTREM F V K E KPVQMM   ++F +  +     KIL LP+   +L+M+++LPDE  DL  +EK I +EK  EWT  + M++ +V+V+LP+ K+EE Y++  VL  LGMTD F   A+ +G+SS + L +S+ VH +F+E++E+G E A +T  I  ++ +    +F ADHPFLF I+H  TN I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>gi|4826902|ref|NP_005015.1|</Hit_id>
+  <Hit_def>serpin B10 [Homo sapiens] &gt;gi|1345616|sp|P48595.1|SPB10_HUMAN RecName: Full=Serpin B10; AltName: Full=Bomapin; AltName: Full=Peptidase inhibitor 10; Short=PI-10 &gt;gi|1065409|gb|AAC50282.1| bomapin [Homo sapiens] &gt;gi|64653401|gb|AAH96220.1| Serpin peptidase inhibitor, clade B (ovalbumin), member 10 [Homo sapiens] &gt;gi|64654585|gb|AAH96219.1| Serpin peptidase inhibitor, clade B (ovalbumin), member 10 [Homo sapiens] &gt;gi|119583566|gb|EAW63162.1| serpin peptidase inhibitor, clade B (ovalbumin), member 10 [Homo sapiens]</Hit_def>
+  <Hit_accession>NP_005015</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.3091e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ERQTEGKIQNLLPDDSVDSTTRMILVNALYFKGIWEHQFLVQNTTEKPFRINETTSKPVQMMFMKKKLHIFHIEKPKAVGLQLYYKSRDLSLLILLPEDINGLEQLEKAITYEKLNEWTSADMMELYEVQLHLPKFKLEDSYDLKSTLSSMGMSDAFSQSKADFSGMSSARNLFLSNVFHKAFVEINEQGTEAAAGSGSEIDIRIRVPSIEFNANHPFLFFIRHNKTNTILFYGRLCSP</Hsp_hseq>
+      <Hsp_midline>E  TE +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M    ++  +   K   L+L + S DLS+L+LLP++++ LE++EK I +EKL EWT+ + ME   V+++LP+ K+E+ Y+L S L ++GM+D F  S A+ +G+SSA +L +S   H AF+E++E G E A  +G   DI+    S +F A+HPFLF I+HN TNTI+++GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>gi|426253889|ref|XP_004020623.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Ovis aries]</Hit_def>
+  <Hit_accession>XP_004020623</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.37351e-63</Hsp_evalue>
+      <Hsp_query-from>33</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>146</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>114</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>MINR--ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>MINSWVESQTNERIKGLFPKDSLDSTTVLVLVNAVYFKGQWNQKFQEESTAEEKFWLNKDTSKPVQMMKQTSHFNFVSLEDVQAKILEIPYKGGELSMLVLLPSEADGLQELEDQLTAEKLIAWTSPQNMGKRQVDLHLPRFKVEESYDLVPTLKALGMVDAFRDGAADFSGMTGRRDLVVSTVVHKCFVEVTEEGTEAAAATDVEIITRAGRNSESFRCDHPFLFLIKHIRTNSILFCGRVSSP</Hsp_hseq>
+      <Hsp_midline>MIN   E  T ++IK L    S D  T LVLVNA+YFKG W   F  E T E  F + K  SKPVQMM   + FN  +L   + KILE+P+  G+LSMLVLLP E   L+ +E  +  EKL  WT+P  M KR+V ++LP+ K+EE Y+L   L ALGM D F   +A+ +G++    L +S  VH  F+E++E+G E A +T V    +    SE FR DHPFLFLIKH  TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>gi|395510887|ref|XP_003759699.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B11 [Sarcophilus harrisii]</Hit_def>
+  <Hit_accession>XP_003759699</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>1.65261e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESKTNGKIKNLFSKGTIDTSSVMVLVNAIYFKGQWQNKFQEEETIKMPFKLREGKSVPVQMMQQSGTFKVALIKEPHMQVLELPYASGNLSMFVLLPKDTEQIEKIEKQLNLKTFKQWTSSLMIEK-EVDVYLPRFKLGIKYELNSLLKTLGIRDIFNPLKADLSGLSPSRDLYLSKVIHKSFIDVNEEGTEASAATGDVVVVKRLPIRVRFLADHPFLFFLKHIKTNTIIFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T  +IK+L    + D  + +VLVNAIYFKG W+  F  E+T +MPF + + +S PVQMM  + +F VA +    M++LELP+ASG+LSM VLLP +   +E+IEK +N +   +WT+   +EK  V VYLP+ K+  KY L S+L  LG+ D+F P  A+L+G+S +  L +S+ +H +F++++E+G E + +TG +  +K  P   +F ADHPFLF +KH  TNTI++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>gi|291394462|ref|XP_002713680.1|</Hit_id>
+  <Hit_def>PREDICTED: serine proteinase inhibitor, clade B, member 4 (predicted)-like isoform 2 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>XP_002713680</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>1.98406e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>133</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGKIKNLFPSGTLNSTTILVLVNAIYFKGEWDEKFNKEKTKEDKFWLNKNTSKPVQMMKQRNHFNFALLEDVQAKILEIPYKGKDLSMIVLLPNEIDGLQKLEEQLTAEKLIKWMSSQNMKKTYVKLHLPKFKIEEKYELSSVLEAMGVVDAFSPQNANLSGMSEHQGLVVSKVLHKSFVELAEEGTEAAAATGMVIRMTSAQMHEEFFCDHPFLFLIKQNKTNSILFFGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T  +IK+L  S + +  T LVLVNAIYFKG W   FN E T+E  F + K  SKPVQMM   N FN A L   + KILE+P+   DLSM+VLLP+E+  L+++E+ +  EKL +W +   M+K  VK++LP+ KIEEKY L+SVL A+G+ D F P +ANL+G+S  + L +S+ +H +F+EL+E+G E A +TG++  +  +   E+F  DHPFLFLIK N TN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>gi|291394460|ref|XP_002713679.1|</Hit_id>
+  <Hit_def>PREDICTED: serine proteinase inhibitor, clade B, member 4 (predicted)-like isoform 1 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>XP_002713679</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>2.80412e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIP-SANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGKIKNLFPSGTLNSTTILVLVNAIYFKGEWDEKFNKEKTKEDKFWLNKNTSKPVQMMKQRNHFNFALLEDVQAKILEIPYKGKDLSMIVLLPNEIDGLQKLEEQLTAEKLIKWMSSQNMKKTYVKLHLPKFKIEEKYELSSVLEAMGVVDAFSPQNANLSGMSEHQGLVVSKVLHKSFVELAEEGTEAAAATGMVIRMTSAQMHEEFFCDHPFLFLIKQNKTNSILFFGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T  +IK+L  S + +  T LVLVNAIYFKG W   FN E T+E  F + K  SKPVQMM   N FN A L   + KILE+P+   DLSM+VLLP+E+  L+++E+ +  EKL +W +   M+K  VK++LP+ KIEEKY L+SVL A+G+ D F P +ANL+G+S  + L +S+ +H +F+EL+E+G E A +TG++  +  +   E+F  DHPFLFLIK N TN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>gi|403267962|ref|XP_003926062.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 isoform 1 [Saimiri boliviensis boliviensis]</Hit_def>
+  <Hit_accession>XP_003926062</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>2.82005e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>386</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNEKIKNLFPNKTIDRDTKLVLVNAIYFKGQWETKFNKEDTKEEKFWSNKNTYKPVQMMRQYTLFNFALLEDVQAKVLEMPYKAKDLSMIVLLPNEPDGLQKLEEKLTAEKLMKWTSLQNMREVRVNLHLPRFKVEEAYDLKDTLSTMGMVDVF-GDADLSGMAGSRDLVVSHVLHKAFVEVTEEGAKATAVTVITTGVT-SPPNEEFHCNHPFLFFIRQNKTNSILFFGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T ++IK+L  + + D DT LVLVNAIYFKG W+T FN EDT+E  F   K   KPVQMM     FN A L   + K+LE+P+ + DLSM+VLLP+E   L+++E+ +  EKL +WT+   M + RV ++LP+ K+EE Y+L   L  +GM D+F   A+L+G++ +  L +S  +H AF+E++E+G +    T +   +  SP +E+F  +HPFLF I+ N TN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>gi|149731759|ref|XP_001488353.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B9 [Equus caballus]</Hit_def>
+  <Hit_accession>XP_001488353</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>2.93359e-63</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>158</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIE---DIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIQELLPGNSIDAQTRLVLVNAIYFKGKWKEQFDKTNTSEMPFKINQKEQKPVQMMFQEATFKLAYIKEVQAQVLELPYVGEELSMIILLPDEDVGLDSVEKNLTFEKFTAWTKPDCMKSTEVEVLLPRFTLEEEYDMESVLQRLGMLDAFEQGKADFSAMSAERDLCLSKFVHKSFVEVNEEGTEAAAASAILVVECCVEFGP---RFCADHPFLFFIRHNKTNSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I++LL  +S D  T LVLVNAIYFKG WK  F+  +T EMPF + ++E KPVQMM    +F +A +   + ++LELP+   +LSM++LLPDE   L+ +EK + FEK T WT P+ M+   V+V LP+  +EE+Y++ SVL  LGM D F    A+ + +S+   L +S+ VH +F+E++E+G E A ++ ++     ++  P   +F ADHPFLF I+HN TN+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>gi|229368692|gb|ACQ62978.1|</Hit_id>
+  <Hit_def>serine proteinase inhibitor, clade B, member 8 isoform a (predicted) [Dasypus novemcinctus]</Hit_def>
+  <Hit_accession>ACQ62978</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>3.73282e-63</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKISEVLAAGTVSPLTELVVVNAVYFKGKWDEQFDRKCTRGMPFKI-KQEKKTVQMMFKEAEFNLGYVDEVHTQVLELPYASRELSMVILLPDDNTDLTVLEKELTYEKFRAWINPEKMTKSKVQVFIPKLKLEENYDLESIFQSLGMTDAFDKAKADFSGMSTKKNVPVSKVAHKCFVEVNEEGTEAAAATTVVRNSRSCRVGPIFRADHPFLFFILHNSTKSILFLGRFFSP</Hsp_hseq>
+      <Hsp_midline>TE +I ++L + +    T LV+VNA+YFKG W   F+ + TR MPF + KQE K VQMM     FN+  +     ++LELP+AS +LSM++LLPD+ +DL  +EK + +EK   W NP  M K +V+V++P++K+EE Y+L S+  +LGMTD F  + A+ +G+S+ +++ +S+  H  F+E++E+G E A +T V+ + +       FRADHPFLF I HN T +I++ GR++SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>gi|478496669|ref|XP_004422673.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Ceratotherium simum simum]</Hit_def>
+  <Hit_accession>XP_004422673</Hit_accession>
+  <Hit_len>389</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.772</Hsp_bit-score>
+      <Hsp_score>543</Hsp_score>
+      <Hsp_evalue>5.1261e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTKGKIKDLLPPDSLE-SAILVLVNAVYFKGLWDKKFDTKSTGEEKFWLNKDMSKSVQMMRQTSSFNFAALEDMQAKILEIPYKCKDLSMMLLLPNEVDGLKKLEDKLTAEKLIEWTSSQNMRETLVDLYLPRFKVEESYDLKDTMISMGMVDAFSPQDANFLGMADSQRLLVSKIVHKSFVEVNEEGTEATAATGVVVVERTSPIYETFHCDHPFLFFIKHNKTNSILFLGRVSSP</Hsp_hseq>
+      <Hsp_midline>E  T+ +IKDLL   S +    LVLVNA+YFKG+W   F+ + T E  F + K  SK VQMM   +SFN A L   + KILE+P+   DLSM++LLP+EV  L+++E  +  EKL EWT+   M +  V +YLP+ K+EE Y+L   ++++GM D F P  AN  G++ ++ L +S+ VH +F+E++E+G E   +TGV+   + SP  E F  DHPFLF IKHN TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>gi|56090431|ref|NP_001007733.1|</Hit_id>
+  <Hit_def>serpin B9 [Rattus norvegicus] &gt;gi|50926066|gb|AAH79063.1| Serine (or cysteine) peptidase inhibitor, clade B, member 9 [Rattus norvegicus] &gt;gi|149045252|gb|EDL98338.1| rCG43931 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>NP_001007733</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>5.4217e-63</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>TEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>TEGKIPELLSGGSVDSETRLVLVNALYFKGRWHQPFNKEYTVDMPFKINKNEKRLVQMMCCEDTYNLAHVKEVQAQVLMMPYEGMELSFVVLLPDNDGDLSKVESNLTFEKLTAWTNPDFMKNTNVEVFLPKFKLQEDYDMESVFQRLGIVDVFQEAKADLSAMSPERNLCVSKIVHKSLVEVNEEGTEAAAASAVIEYC-CAAFVPTFCADHPFLFFIKHNKTNSILFCGRFSSP</Hsp_hseq>
+      <Hsp_midline>TE +I +LL   S D +T LVLVNA+YFKG W   FN E T +MPF + K E + VQMMC  +++N+A +   + ++L +P+   +LS +VLLPD   DL ++E  + FEKLT WTNP+ M+   V+V+LP+ K++E Y++ SV   LG+ D+F  + A+L+ +S   +L +S+ VH + +E++E+G E A ++ VIE    +     F ADHPFLF IKHN TN+I++ GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>gi|149721225|ref|XP_001491368.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3-like [Equus caballus]</Hit_def>
+  <Hit_accession>XP_001491368</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>5.56063e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNGKIKDLFPDSSLS-SAILVLVNAVYFKGQWDKKFDKEYTVEEKFWLNKVTTKPVQMMKQTNSFNFTELKDMQAKILEIPYKHKDLSMMLLLPNEVDGLKKLEDKLTAEKLIEWTSSQNMRERFVDLYLPRFKVEESYDLKDTMMSLGMLDAFSPQDADFSGMTGSRGLVVSKILHKSFVEVNEEGTEAAAATG-IEFGLLSPRAYSFHCDHPFLFFIKHNKTNSILFLGRVSSP</Hsp_hseq>
+      <Hsp_midline>E  T  +IKDL   SS      LVLVNA+YFKG W   F+ E T E  F + K  +KPVQMM   NSFN   L   + KILE+P+   DLSM++LLP+EV  L+++E  +  EKL EWT+   M +R V +YLP+ K+EE Y+L   +M+LGM D F P  A+ +G++ +  L +S+ +H +F+E++E+G E A +TG IE    SP +  F  DHPFLF IKHN TN+I++ GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>gi|326675307|ref|XP_002665111.2|</Hit_id>
+  <Hit_def>PREDICTED: leukocyte elastase inhibitor isoform 1 [Danio rerio]</Hit_def>
+  <Hit_accession>XP_002665111</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>6.16088e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>137</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSD----LERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKNTQEKIKDLLPSGAIDAMTRLVLVNAIYFKGNWERKFPKEATNDGQFKLNKNQTKPVKMMYQKAHFPLASIPEMNSQVLELPYVGKNLSMLIILPDQIEDATTGLEKLEKALTYEKLMEWTKPEVMRQQEVQVSLPKFKMEQTYDMKSLLVSMGMEDVFDPQKVNLTGMSSSNDLVLSKVIHKAFVEVNEEGTEAAAATGAIMMLRCIRLPQSFNADHPFLFFIRHNPTKSILFYGRFCSP</Hsp_hseq>
+      <Hsp_midline>E  T+++IKDLL S + D  T LVLVNAIYFKG W+  F  E T +  F + K ++KPV+MM     F +A++P    ++LELP+   +LSML++LPD++ D    LE++EK + +EKL EWT P  M ++ V+V LP+ K+E+ Y++ S+L+++GM D+F P   NLTG+SS+  L +S+ +H AF+E++E+G E A +TG I  ++     + F ADHPFLF I+HNPT +I+++GR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>gi|64654771|gb|AAH96217.1|</Hit_id>
+  <Hit_def>Serpin peptidase inhibitor, clade B (ovalbumin), member 10 [Homo sapiens]</Hit_def>
+  <Hit_accession>AAH96217</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.386</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>6.96237e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ERQTEGKIQNLLPDDSVDSTTRMILVNALYFKGIWEHQFLVQNTTEKPFRINETTSKPVQMMFMKKKLHIFHIEKPKAVGLQLYYKSRDLSLLILLPEDINGLEQLEKAITYEKLNEWTSADMMELYEVQLHLPKFKLEDSYDLKSTLSSMGMSDAFSQSKADFSGMSSARNLFLSNVFHKAFVEINEQGTEAAAGSGSEINIRIRVPSIEFNANHPFLFFIRHNKTNTILFYGRLCSP</Hsp_hseq>
+      <Hsp_midline>E  TE +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M    ++  +   K   L+L + S DLS+L+LLP++++ LE++EK I +EKL EWT+ + ME   V+++LP+ K+E+ Y+L S L ++GM+D F  S A+ +G+SSA +L +S   H AF+E++E G E A  +G   +I+    S +F A+HPFLF I+HN TNTI+++GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>gi|507647723|ref|XP_004703185.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 [Echinops telfairi]</Hit_def>
+  <Hit_accession>XP_004703185</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>8.95182e-63</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>152</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHS-PESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>EKQTHGKIQDLFPEGSLSSSTILVLVNAIYFKGQWDRKFNKEITEEEKFWQNKDTSKSVMMMKQRESFNLAFLDDMQAKILEIPYKGEDLSMFVLLPNEVDGLQKIEDTLSVEKFLEWTSPSFMKKTKVDLNLPRFRVEDKYSLSAMMIALGMVDAFSPQDADFSGMTGRRNLVLSKALHKAFVEVNEEGTEAAAATG-IEAVPMSLPYYEPFHCNHPFVFFIKQKKTNSLLFFGRITSP</Hsp_hseq>
+      <Hsp_midline>E  T  +I+DL    S    T LVLVNAIYFKG W   FN E T E  F   K  SK V MM    SFN+A L   + KILE+P+   DLSM VLLP+EV  L++IE T++ EK  EWT+P+ M+K +V + LP+ ++E+KY+L+++++ALGM D F P  A+ +G++   +L +S+A+H AF+E++E+G E A +TG IE +  S P  E F  +HPF+F IK   TN++++FGR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>gi|296222811|ref|XP_002757355.1|</Hit_id>
+  <Hit_def>PREDICTED: serpin B3 isoform 1 [Callithrix jacchus] &gt;gi|165934076|gb|ABY74567.1| serine proteinase inhibitor, clade B, member 4 (predicted) [Callithrix jacchus]</Hit_def>
+  <Hit_accession>XP_002757355</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.21821e-62</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPSANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKH-SPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ESQTNEKIKNLFPDQSINRMTKLVLVNAIYFKGQWETKFNKEDTKEEKFWPNKNTSKPVHMMRQYTFFHFALLEDVQAKVLEIPYKANDLSMIVLLPNETDGLQKLEEKLTAEKLMKWTSLQNMRKVDVNLRLPRFKVEEAYDLKDTLRTMGMVDVF-SDADLSGMAGSRNLVISKVLHKAFVEVTEEGAEATAATGVTTGITSPPPTNEEFHCNHPFLFFIRQNKTNSILFFGRFSSP</Hsp_hseq>
+      <Hsp_midline>E  T ++IK+L    S +  T LVLVNAIYFKG W+T FN EDT+E  F   K  SKPV MM     F+ A L   + K+LE+P+ + DLSM+VLLP+E   L+++E+ +  EKL +WT+   M K  V + LP+ K+EE Y+L   L  +GM D+F   A+L+G++ + +L IS+ +H AF+E++E+G E   +TGV   I    P +E+F  +HPFLF I+ N TN+I++FGR+ SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>gi|189067460|dbj|BAG37442.1|</Hit_id>
+  <Hit_def>unnamed protein product [Homo sapiens]</Hit_def>
+  <Hit_accession>BAG37442</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.4663e-62</Hsp_evalue>
+      <Hsp_query-from>37</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>ELATEDQIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNNSFNVATLPAEKMKILELPFASGDLSMLVLLPDEVSDLERIEKTINFEKLTEWTNPNTMEKRRVKVYLPQMKIEEKYNLTSVLMALGMTDLFIPS-ANLTGISSAESLKISQAVHGAFMELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP</Hsp_qseq>
+      <Hsp_hseq>ERQTEGKIQNLLPDDSVDSTTRMILVNALYFKGIWEHQFLVQNTTEKPFRINETTSKPVQMTFMKKKLHIFHIEKPKAVGLQLYYKSCDLSLLILLPEDINGLEQLEKAITYEKLNEWTSADMMELYEVQLHLPKFKLEDSYDLKSTLSSMGMSDAFSQSKADFSGMSSARNLFLSNVFHKAFVEINEQGTEAAAGSGSEIDIRIRVPSIEFNANHPFLFFIRHNKTNTILFYGRLCSP</Hsp_hseq>
+      <Hsp_midline>E  TE +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQM  M    ++  +   K   L+L + S DLS+L+LLP++++ LE++EK I +EKL EWT+ + ME   V+++LP+ K+E+ Y+L S L ++GM+D F  S A+ +G+SSA +L +S   H AF+E++E G E A  +G   DI+    S +F A+HPFLF I+HN TNTI+++GR  SP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>26185205</Statistics_db-num>
+      <Statistics_db-len>480684737</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+  <Iteration_message>One or more U or O characters replaced by X for alignment score calculations at positions 5, 21, 26, 31</Iteration_message>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

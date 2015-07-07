@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>    
+    <head>
+        <title>New BLAST search</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="shortcut icon" href="Images/wheel.png"> 
+        <link rel="stylesheet" href="style.css"  media="all">
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" 
+              rel="stylesheet" type="text/css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+    </head>
+    <body >
+        <div id="loadingDivSml" class="hidden">
+            <img src="Images/loading.gif" id="loadingImg">
+        </div>
+        <form id="blastSearchForm" action="/blast" method="post">
+
+            <header>
+                <h1>New BLAST search</h1>
+            </header>
+
+            <table  class="panel">
+                <tr>
+                    <td>
+                        <label for="QUERY">Query<br>sequence</label>
+                    </td>
+                    <td >
+                        <textarea id="QUERY" name="QUERY" rows="4" spellcheck="false"
+                                  placeholder="Enter accession number(s), gi(s) or FASTA sequence(s)"></textarea>
+                    </td>
+                </tr>
+                <tr title="Type common name, binomial, taxid, or group name. Only 20 top taxa will be shown.">
+                    <td>
+                        <label for="EQ_MENU">Organism</label>
+                    </td>
+                    <td >
+                        <input id="EQ_MENU" name="EQ_MENU" spellcheck="false">
+                    </td>
+                </tr>
+                <tr title="Enter coordinates for a subrange of the query sequence. The BLAST search will apply only to the residues in the range. Sequence coordinates are from 1 to the sequence length.The range includes the residue at the To coordinate">
+                    <td>
+                        <label for="QUERY_FROM">Query subrange</label>
+                    </td>
+                    <td>
+                        <label for="QUERY_FROM" class="inlineLabel">From
+                            <input id="QUERY_FROM" name="QUERY_FROM" spellcheck="false"></label>
+                        <label for="QUERY_TO" class="inlineLabel" style="float:right">To
+                            <input id="QUERY_TO" name="QUERY_TO" spellcheck="false"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="DATABASE">Database</label>
+                    </td>
+                    <td>
+                        <select name="DATABASE" id="DATABASE">
+                            <option value="nr">
+                                Non-redundant protein sequences (nr)</option>
+                            <option value="refseq_protein" selected="selected">
+                                Reference proteins (refseq_protein)</option>
+                            <option value="swissprot">
+                                UniProtKB/Swiss-Prot(swissprot)</option>
+                            <option value="pat">
+                                Patented protein sequences(pat)</option>
+                            <option value="pdb">
+                                Protein Data Bank proteins(pdb)</option>
+                            <option value="env_nr">
+                                Metagenomic proteins(env_nr)</option>	
+                            <option value="tsa_nr">
+                                Transcriptome Shotgun Assembly proteins (tsa_nr)</option>	        
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="PROGRAM">Program</label></td>
+                    <td>
+                        <select name="PROGRAM" id="PROGRAM">
+                            <option value="blastp" selected="selected">
+                                blastp (protein-protein BLAST)</option>
+                            <!--<option value="psiBlast">PSI-BLAST (Position-Specific Iterated BLAST)</option>
+                            <option value="phiBlast">PHI-BLAST (Pattern Hit Initiated BLAST)</option>
+                            <option value="deltaBlast">DELTA-BLAST (Domain Enhanced Lookup Time Accelerated BLAST)</option>-->
+                        </select>
+                    </td>
+                </tr>
+            </table>            
+            <footer><input type="submit" value="BLAST" id="blastButton"></footer>
+        </form>
+
+        <script src="ui.js" type="text/javascript"></script>        
+
+    </body>
+</html>

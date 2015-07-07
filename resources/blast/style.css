@@ -1,0 +1,715 @@
+
+body {
+    width:100%;
+    background-color: darkgray;
+    margin:0px;
+    
+    /*Disable text selection across all browsers*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+td {
+    /*Enable text selection in table cells only*/
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+header, footer {
+    width:100%;
+    height:40px;
+    clear:both;
+    padding:2px;
+    
+    color:#424242;
+}
+
+
+footer, #visToolbarTop, #fileName {
+    font-size: .8em;
+    
+}
+
+
+footer a {
+    color:#424242;
+}
+header button {
+    position:relative;
+    top:-10px;
+}
+
+h1 {
+    font-size: 1em;
+    color:#424242;
+    
+    
+}
+h2 {
+    font-size: .9em;
+    text-align: center;
+    clear:both;
+}
+h1, h2, th, td, footer, .column, #visToolbarTop, #fileName {
+    font-family: Helvetica, Arial, sans-serif;
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    font-size: .8em;
+    font-weight: bold;
+    border-bottom:1px solid #424242;
+    z-index:100;
+}
+td {
+    z-index:50;
+}
+
+td, .column, .headerButton {
+    font-size: .8em;
+    border-right:1px solid #424242;    
+}
+
+div {
+    overflow:hidden;
+}
+.panel {
+    background-color:white;
+    padding:2px;
+}
+.windowControl, .optionButton { 
+    clear:none;
+    font-size:.8em;
+    
+}
+.optionButton  {
+    float:left;
+    
+}
+.windowControl {
+    float:right;
+}
+
+button img {
+    height:15px;
+    width:auto;
+}
+
+#fileName {
+    float:right;
+    position: relative;
+    top:5px;
+    margin:0px;
+}
+#file {
+    display:none;
+}
+
+#visToolbarTop div {
+    height:100%;
+    clear:none;
+}
+
+
+#visDiv2, #visDiv3 {
+    float:left; 
+}
+#visDiv1, #visDiv4 {
+    float:right;    
+}
+
+#visDiv2 button {
+    width:100px;
+    height:46%;
+    margin-top:1px;
+    margin-right:10px;
+    padding:1px;
+    font-size:.9em;
+    font-weight:bold;
+    display:block;
+    clear:both;
+}
+#visDiv2 img {
+    margin-left:1px;
+    margin-right:1px;
+    float:right;
+}
+#visDiv4 img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+#visDiv3 {
+    margin-right:10px;
+    
+}
+#visDiv4 {
+    margin-right:10px;
+    
+}
+#visDiv4 button {
+    width:60px;
+    height:50px;
+    margin:0px;
+    margin-right:1px;
+    padding:1px;
+}
+#visToolbarTop br{
+    clear:both;
+}
+
+.toolbar button {
+    clear:none;
+}
+#blastSearchForm {
+    border-radius:5px;
+}
+#EQ_MENU {
+    width:99%;
+}
+/*form {
+    padding:10px;
+}
+form label, form input, form textarea, form select {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-bottom: 10px;
+}
+form label, form input, form select {
+    width: 120px;
+}
+form textarea {
+    width: 260px;
+}
+form label, form p{
+    text-align: right;
+    padding-right: 20px;
+}
+form br {
+    clear:left;
+}*/
+form {
+    margin-right:auto;
+    margin-left:auto;
+}
+form select {
+    width:100%;
+}
+form textarea {
+    width:98%;
+}
+#FORMAT_ORGANISM {
+    width:99%;
+}
+form label input {
+    width:180px;
+}
+
+form td {
+    vertical-align:top;
+    padding:5px;
+}
+form label {
+    float:right;
+}
+form, form header, form footer {
+    width:560px;
+}
+form header, form footer {
+    margin:0px;
+}
+form td {
+    text-align:right;
+    width:80px;
+    
+}
+form td+td {
+    border:none;
+    text-align:left;
+    width:480px;
+}
+form br {
+    clear:both;
+}
+#blastButton {
+    float:right;
+    font-weight:bold;
+    /*padding:10px;*/
+    margin-top:10px;
+}
+
+.inlineLabel {
+    float:none;
+}
+
+.center {
+    margin-left: auto;   margin-right: auto;
+}
+/*#visualisation {
+    width:96%;
+    margin-left:2%;
+    margin-right:2%;
+    clear:none;  
+}*/
+#visualisation {
+    width:100%;
+    clear:none;    
+}
+
+svg {
+    /*zoom: 2;
+   -moz-transform: scale(2);*/
+}
+
+.zoomed {
+    zoom: 2;
+   -moz-transform: scale(2);
+}
+
+#visualisation.classic/*, #sidebar.classic, #tablePanel.classic */{
+    background-color:black;
+}
+#visDiv1 button, .maxButton, #tableToolbarTop button, barsToolbar button {
+    height:20px;
+}
+#menus {
+    height:50px;
+    clear:both;
+}
+.toolbar {
+    
+    clear:none;
+    float:left;
+}
+.centerPanel button {
+    float:right;
+}
+body, window {
+    overflow:hidden;
+}
+#bars {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    padding-right:10px;
+    margin:10px;
+}
+#tablePanelInner td {
+    padding-right:5px;
+    padding-left:5px;
+}
+
+#tablePanelInner{
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+#tableHeaderInner, #tablePanelInner {
+    width:100%;
+}
+
+#tableHeaderInner {
+    overflow-y: scroll;
+}
+#tablePanelInner thead tr{
+    visibility:hidden;
+    line-height:0px;   
+}
+#tableHeaderInner {
+    height:30px;
+}
+#tableHeaderDisplay {
+    height:100%;
+}
+#visualisation {
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+/*#tables {
+    width:100%;
+    overflow-x: scroll;
+    
+}*/
+/*#tables {
+    overflow-x: scroll;
+}*/
+table {
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+#bars {
+    width:90%;
+    height:90%; /*TODO dynamic height*/
+    margin-left:5%;
+    margin-right:5%;
+    float:left;
+    
+}
+
+#sidebar, #content, #tablePanel {
+       
+       border:1px solid black;
+       clear:none;
+}
+#sidebar{
+       float: left;
+}
+#sidebar, header, footer {
+    /*margin-left:20px;*/
+}
+
+
+.hidden {
+    display:none;
+    
+}
+.closed {
+    /*overflow:hidden;
+    overflow-y:hidden;*/
+}
+.fixed {
+    position:fixed;
+}
+.maximised, #sidebar.maximised {
+    /*margin:0px;*/
+    
+    
+}
+.maxButton {
+    float:right;
+}
+header, footer {
+    /*margin-right:20px;*/
+}
+#content {
+    
+    float:left;
+    
+}
+#tablePanel {
+    float:right;
+}
+#tablePanel table {
+    /*width:100%;*/
+    border-collapse: collapse;
+    border-spacing: 0;
+  
+}
+.testing {
+    color:green;
+}
+
+
+#sidebar, #content, #tablePanel {
+    border-right:5px groove #424242;
+}
+#sidebar {
+    border-left:5px groove #424242;
+}
+
+select {
+    width:400px;
+    max-width:100%;
+    
+}
+
+svg {
+    margin-left:auto;
+    margin-right:auto;
+   /*width:100%; */
+    display:block;
+
+}
+
+.resetButton {
+    float:right;
+    margin-top:5px;
+}
+
+.column div {
+    background-color:white;
+    font-weight:normal;
+    color:black;
+}
+th {
+    color:#424242;
+    font-weight:bold;
+    background-color:white;
+    border-top:1px solid #424242;
+    border-bottom:1px solid #424242;
+}
+
+
+.column {
+    color:papayawhip;
+    font-weight:bold;
+    background-color:#424242;
+    border-right:1px solid #424242;
+    max-width:100px;
+    cursor: move;
+    float:left;
+}
+.headerButton img {
+    height:10px;
+    width:10px;
+}
+.headerButton {
+    float:right;
+    vertical-align: top;
+}
+
+
+.bar, .targetBar {
+    height:7px;
+    margin-top:2px;
+    margin-bottom:2px;
+    border-radius:25px; /*rounded corners*/
+    border:3px solid;
+    
+}
+
+.targetBar {
+    width:100%;
+    margin-bottom:9px;
+}
+
+text {
+    font-weight:100;
+    fill:black;
+    font-family:sans-serif;
+    font-size:10px;
+}
+
+text.classic {
+    fill:white;   
+}
+
+
+text.tempSelected, text.selected {
+    font-weight:300;
+    font-size:14px;
+}
+.node {
+    fill:white;
+}
+
+
+.tempCircle {
+    fill:transparent;
+}
+.tempCircle.visible, .visible.tempCircle {
+    stroke:pink;
+}
+
+.centerNode {
+    stroke:black;
+    fill:darkgray;
+}
+.targetBar {
+    background-color:black;
+    stroke:black;
+    border-color:black;
+}
+
+.red, .red td {
+    background-color:red;
+    stroke:red;
+    border-color:red;
+    
+}
+.red td+td, .purple td+td, .green td+td, .blue td+td, .black td+td {
+    background-color:transparent;
+    
+}
+.purple, .purple td {
+    background-color:purple;
+    stroke:purple;
+    border-color:purple;
+    
+}
+.green, .green td {
+    background-color:green;
+    stroke:green;
+    border-color:green;
+}
+.blue, .blue td {
+    background-color:blue;
+    stroke:blue;
+    border-color:blue;
+    
+}
+.black, .black td {
+    background-color:#424242;
+    stroke:#424242;
+    border-color:#424242;
+ 
+}
+
+table {
+    /*width:100%;*/
+}
+
+.edge {
+    stroke:lightgrey;
+}
+
+#loadingDiv {
+    background-color:lightgray;
+    position:absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    left:0px;
+    z-index:99;
+    text-align: center;
+}
+#loadingDivSml {
+    background-color:lightgray;
+    opacity:0.7;
+    position:absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    left:0px;
+    z-index:99;
+    text-align: center;
+}
+#loadingImg {
+    
+    position: relative;
+    top:45%;
+    margin-left: auto;
+    margin-right:auto;
+    z-index:100;
+}
+
+.evenRow {
+    background-color: papayawhip;
+}
+.oddRow {
+    background-color: white;
+}
+.oddRow.selected {
+    background-color:lightcyan;
+}
+.evenRow.selected {
+    background-color:powderblue;
+}
+.evenRow.tempSelected, .evenRow.tempSelectedLocked {
+    background-color:lightgray;
+}
+.oddRow.tempSelected, .oddRow.tempSelectedLocked {
+    background-color:lightgray;
+}
+
+.bar.selected {
+    border:3px solid black;
+}
+
+
+/*
+TempSelected style must come after Selected style
+*/
+.edge.tempSelected {
+    stroke:black;
+}
+
+text.tempSelected{
+    font-weight:700;
+    font-size:14px;
+}
+
+.bar.tempSelected {
+    opacity:0.5;
+}
+.node.selected {
+    stroke-width:3;    
+}
+.node.tempSelected {
+    stroke-width:5;
+}
+
+.checkbox {
+    
+}
+
+header, footer {
+    width:98%;
+       
+       margin-right:auto;
+       margin-left:auto;
+}
+   #outerPanel {
+       width:98%;
+       height:100%;
+       margin-right:auto;
+       margin-left:auto;
+   }
+   
+   .toolbar {
+       border:2px solid #424242;
+       /*border-radius:5px;*/
+       /*margin:2px;*/
+       width:100%;
+       background-color:lightgrey;
+       height:60px;
+   }
+   
+   .sortedBy {
+       text-decoration:underline;
+   }
+   
+   #tableToolbarBottom, #visToolbarBottom {
+       height:40px;
+   }
+   
+   
+   h1 {
+       float:left;
+       clear:none;
+   }
+   
+   defaultColourBars {
+       width:100%;
+   }
+   #defaultColourBars div {
+       width:18%;
+       margin:1%;
+       padding-top:1px;
+       padding-bottom:1px;
+       clear:none;
+       float:left;
+       max-height:1.1em;
+       
+       color:papayawhip;
+       
+       
+       border-radius:25px; /*rounded corners*/
+   }
+   
+   #defaultColourLegend {
+       background-color:white;
+       font-family:Helvetica, Arial, sans-serif;
+       font-weight:bold;
+       text-align:center;
+       border:1px solid black;
+       padding:5px;
+       border-radius:10px; /*rounded corners*/
+       margin:5px;
+       font-size:.8em;
+       max-width:300px;
+       margin-right:auto;
+       margin-left:auto;
+       cursor: default;
+       
+   }

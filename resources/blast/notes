@@ -1,0 +1,54 @@
+Colour key: I adjusted the values because NCBI preset values have overlap.
+Transitions buggy in firefox
+
+Lawrence
+- hit stack not synchronising with other views [NOT SURE WHAT THIS MEANS. SEEMS OK.]
+
+
+
+
+WISH LIST
+- multiple hits along the same spoke (mouseover should highlight only the one)
+- separate rows - no change there (mouseover should highlight only the one)
+- overlapping divs on the same row in the hit stack (mouseover will need to highlight both)
+
+table row for each hsp
+node for each hsp
+stroke for each hsp (overlap these)
+bar for each hsp
+
+
+1. count the number of hits
+2. parse the xml differently. return exactly the same thing but with duplicate values
+    for each additional hsp - these must each also contain the parent hit data
+THERE WILL BE A LARGER NUMBER OF ELEMENTS IN ALL ARRAYS
+3. while rendering, storage variable keeps track of current hit num and updates each time
+    - if on update the hit num is the same as the previous hit num, set bars to appear overlapped
+    on same line (position absolute, clear none, left ...?) - firstly render bars inside the same parent 
+    div and then take care of overlapping them inside that div later
+    - for wheel, don't change the xy offset for the spoke or the node. either don't render
+    the label or make it hidden
+    - no change to table
+
+
+row == row, which happens to have nested rows
+spoke == spoke (1 only)
+label == label (1 only)
+node == group of nodes
+bar == group of bars
+
+a bar is a div. each bar may contain one or two nested divs inside it
+a node is a g element. each g element may contain one or more dots on it
+a row is a row. each row may contain one or more nested rows
+
+there MUST be exactly the same number of elements in the dataset as there are in the displays
+the problem is not creating, the problem is manipulating
+on sort/add/remove/rebind, dom elements are not created or destroyed, their attributes are simply changed
+but if some elements become groups of elements, then a sort will require either physically rearranging the 
+    elements in the dom and a rebind will require adding or deleting of many more elements
+
+the other option is to keep them separate but to link them by data attributes, but this requires frequent
+checking of data attributes rather than just indexing into the arrays
+
+a third option is to overlay the additional elements
+

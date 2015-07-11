@@ -59,43 +59,104 @@
 	}
 	
 	function eat(letter){
-		var node = makeDismemberedBodyPart(undefined, undefined, letter, letterpillar[letterpillar.length-1]);
+		var node = makeDismemberedBodyPart(undefined, undefined, letter.letter, 
+			letterpillar[letterpillar.length-1], lastMove);
 		letterpillar.push(node);
+		updateBottomPanel();
+	}
+	
+	function updateBottomPanel(){
+		
+		var maybeWord = [$(letterpillar).map(function(){
+			var letter = $(this).attr('letter');
+			return letter == undefined ? '' : letter.letter;
+		}) ];
+		
+		var maybeWord2 = $.map($(letterpillar), function(val, i){
+			//var letter = $(this).attr('letter');
+			return val.letter == undefined ? '' : val.letter.letter;
+		});
+		
+		$('#bottomPanel p').html(maybeWord2.join(' '));
 	}
 	
 	function move(){
 	
+	var newX = letterpillar[0].x;
+	var newY = letterpillar[0].y;
+	
 		switch (lastMove) {
         case 'up':
-            letterpillar[0].y -= 1;
-			if(letterpillar[0].y < 0) stopGame();
+			letterpillar[0].moveDirection = 'vertical';
+            newY -= 1;
+			if(newY < 0) stopGame();
             break;
         case 'down':
-            letterpillar[0].y += 1;
-			if(letterpillar[0].y >= gridHeight) stopGame();
+			letterpillar[0].moveDirection = 'vertical';
+            newY += 1;
+			if(newY >= gridHeight) stopGame();
             break;
         case 'left':
-            letterpillar[0].x -= 1;
-			if(letterpillar[0].x < 0) stopGame();
+			letterpillar[0].moveDirection = 'horizontal';
+            newX -= 1;
+			if(newX < 0) stopGame();
             break;
         case 'right':
-            letterpillar[0].x += 1;
-			if(letterpillar[0].x >= gridWidth) stopGame();
+			letterpillar[0].moveDirection = 'horizontal';
+            newX += 1;
+			if(newX >= gridWidth) stopGame();
             break;
 		}
 		
 		// If there is a letter at this position, eat it
+		var position = -1;
 		var letterAtPosition = $.grep( gridPoints, function( point, i ) {
-			return point.letter != undefined && point.letter.letter != undefined 
-				&& point.x == letterpillar[0].x && point.y == letterpillar[0].y;
+			var result =  point.letter != undefined && point.letter.letter != undefined 
+				&& point.x == newX && point.y == newY;
+			if(result && position == -1) position = i;
+			return result;
 		});
-		if(letterAtPosition.length > 0)
+		if(letterAtPosition.length > 0){
 			eat(letterAtPosition[0]);
+			gridPoints[position].letter = undefined;
+			redrawLetters();
+		}
+		
+
 		
 		for(var i = letterpillar.length-1; i > 0; i--){
 			letterpillar[i].x = letterpillar[i].prev.x;
 			letterpillar[i].y = letterpillar[i].prev.y;
 		}
+		
+		letterpillar[0].x = newX;
+		letterpillar[0].y = newY;
+		
+		for(var i = letterpillar.length-1; i > 0; i--){
+			// if prev and next are both at different positions make it a circle
+			var direction = undefined;
+			var prev = letterpillar[i].prev;
+			if(i+1 < letterpillar.length){
+				var next = letterpillar[i+1];	
+				if(next.x != prev.x && next.y != prev.y)
+					direction = 'none'; // this node is on a corner
+			}
+			if(direction != 'none')
+				direction = letterpillar[i].x != letterpillar[i].prev.x ? 'horizontal' : 'vertical';
+			
+			letterpillar[i].moveDirection = direction;
+		}
+		
+		/*for(var i = letterpillar.length-1; i > 0; i--){
+			
+			if(i+1 < letterpillar.length-1){
+				var prev = letterpillar[i].prev;
+				var next = letterpillar[i+1];	
+				if(prev.moveDirection != next.moveDirection)
+					letterpillar[i].moveDirection = 'none'; // this node is on a corner
+			}
+		}*/
+		
 		redrawLetterpillar();
 	}
 	
@@ -121,11 +182,16 @@
 		gameBoard = d3.select('#gameBoard');
 		$('svg').remove();
 		var width = $(document).innerWidth() - $('#sideBar').width() - 70;
-		var height = $(document).innerHeight() - $('header').height() - $('footer').height() - 40;
+		var height = $(document).innerHeight() - $('header').height() - $('footer').height() - $('#bottomPanel').height()- 40;
 		var canvas = gameBoard.append('svg')
 			.attr("width", width)
 			.attr("height", height);
+			
+		var letterpillarG = canvas.append('g').classed('letterpillarG', true);
+		var lettersG = canvas.append('g').classed('lettersG', true);
+		var textG = canvas.append('g').classed('textG', true);
 		
+		// Ensure that elements are not chopped off when drawn at the limits of the range
 		var padRangeBy = circleWidth + gameBoardPadding;
 		
 		scaleX = d3.scale.linear()
@@ -135,74 +201,111 @@
 			.range([padRangeBy, height - padRangeBy])
 			.domain(d3.extent(gridPoints, function(d) { return d.y; }));
 
-		var groups = d3.select('#gameBoard svg')
-			.selectAll("g")
+		// Draw letters
+		var groups = d3.select('.lettersG')
+			.selectAll('g')
 			.data(gridPoints)
 			.enter()
 			.append('g')
 			.attr("transform", function(d) {
 				 return "translate(" + scaleX(d.x) + "," + scaleY(d.y) + ")"; 
-			   });
+			}) ;
 			
 			groups.append('circle')
 			.attr("r", 0)
-			.attr("stroke", "white")
+			.attr("stroke", "transparent")
 			.attr("fill", "transparent");
 			
 			groups.append('text')
-				.attr("dy", ".35em")
-				.attr("text-anchor", "middle");
-				
-			d3.select('#gameBoard svg')
+				.attr("dx", "-.32em")
+				.attr("dy", ".32em");
+			
+			// Draw letterpillar
+			d3.select('.letterpillarG')
 				.selectAll('rect')
 				.data(letterpillar)
 				.enter()
 				.append('rect')
-				.attr('width', 15)
-				.attr('height', 15)
-				.attr('x', function(d){
-					return scaleX(d.x) ;
-				})
-				.attr('y', function(d){
-					return scaleY(d.y) ;
-				});
+				.attr("transform", function(d) {
+					 return "translate(" + scaleX(d.x) + "," + scaleY(d.y) + ")"; 
+				   })
+				   .classed('head', true)
+				   .attr('width', 30)
+					.attr('height', 30);
+				;
+				
+			
+			
 	}
 	
 	function redrawLetterpillar(){
-		d3.select('#gameBoard svg')
+		
+		d3.select('.letterpillarG')
 				.selectAll('rect')
 				.data(letterpillar) // TODO AMW it should not be necessary to rebind
 				.enter()
-				.append('rect')
-				;
+				.append('rect');
 				
-				d3.select('#gameBoard svg')
+			d3.select('.textG')
+				.selectAll('g')
+				.data(letterpillar) // TODO AMW it should not be necessary to rebind
+				.enter()
+				.append('g');
+				
+			var letterpillarGroups =  d3.select('.letterpillarG')
+				.selectAll('rect') 
+				.attr("transform", function(d) {
+					 return "translate(" + scaleX(d.x) + "," + scaleY(d.y) + ")"; 
+				   })
+				   ;		
+
+
+			d3.select('.letterpillarG')
 				.selectAll('rect')
-				.attr('width', 15)
-				.attr('height', 15)
-				.attr('x', function(d){
-					return scaleX(d.x) ;
+				.attr('width', function(d){
+					return 30;
+					if(d.moveDirection == undefined || d.moveDirection == 'none') return 18;
+					return (d.moveDirection == 'vertical') ? 18 : 30;
 				})
-				.attr('y', function(d){
-					return scaleY(d.y) ;
+				.attr('height', function(d){
+					return 30;
+					if(d.moveDirection == undefined || d.moveDirection == 'none') return 18;
+					return (d.moveDirection == 'vertical') ? 30 : 18;
 				});
 				
+			d3.select('.textG')
+				.selectAll('g')
+				.attr("transform", function(d) {
+					 return "translate(" + scaleX(d.x) + "," + scaleY(d.y) + ")"; 
+				   })
+				.each(function(){
+					
+					d3.select(this)
+							.selectAll('text')
+							.data(function(d){return [d]})
+							.enter()
+							.append('text')
+							.attr("dy", ".35em")
+							.text(function(d){
+								return d.letter == undefined || d.letter.letter == '' ? '' : d.letter.letter;
+							});
+				})
+				
+				;
 	}
 	
 	function redrawLetters(){
-		d3.select('#gameBoard svg')
+		d3.select('.lettersG')
 			.selectAll('circle')
-			//.data(gridPoints) // should not have to re-bind
 			.attr("r", 10)
 			.attr("stroke", function(d){
-				return d.letter == undefined || d.letter.score == 0 ? "white" : colours[d.letter.score];
+				return d.letter == undefined || d.letter.score == 0 ? "transparent" : colours[d.letter.score];
 			});
 			
-		d3.select('#gameBoard svg')
+		d3.select('.lettersG')
 			.selectAll('text')
-			.data(gridPoints) // should not have to re-bind
-			.attr("dy", ".35em")
-			.attr("text-anchor", "middle")
+			.attr("dx", "-.32em")
+			.attr("dy", ".32em")
 			.text(function(d){
 				return d.letter == undefined || d.letter.letter == '' ? '' : d.letter.letter;
 			});
@@ -258,28 +361,6 @@
 		
 	}
 	
-	// Repeatedly redraw the canvas until timer is no longer running
-	function drawCanvas() {
- 
-		// clear canvas
-		//context.fillStyle = "#FFFFFF";
-		//context.rect(0,0,canvas.attr("width");canvas.attr("height"));
-		//context.rect(0,0,500,500);
-		//context.fill();
-
-		$('#gameBoard canvas').find("custom.rect").each(function(d) {
-			var node = d3.select(this);
-			context.beginPath();
-			context.fillStyle = node.attr("fillStyle");
-			context.strokeStyle = node.attr("strokeStyle");
-			context.arc(node.attr("x"), node.attr("y"), 10, 0, 2 * Math.PI);
-			context.stroke();
-			context.fill();			
-		});
-		
-		if(!timerIsRunning) return true;
-}
-	
 	function stopGame(){
 		timerIsRunning = false;
 		updateDisplayedTime();
@@ -300,8 +381,12 @@
 		 return {x:x, y:y, letter:letter};
 	 }
 	 
-	function makeDismemberedBodyPart(x, y, letter, prev){
-		return {x: x, y: y, letter: letter, prev: prev};
+	function makeDismemberedBodyPart(x, y, letter, prev, moveDirection){
+		var direction = undefined;
+		if(moveDirection != undefined)
+			direction = moveDirection == 'up' || moveDirection == 'down' ? 'vertical' : 'horizontal';
+		
+		return {x: x, y: y, letter: letter, prev: prev, moveDirection: direction};
 	}
 	
 	function startGame(){
@@ -314,7 +399,7 @@
 		gridPoints = setGrid();
 		bag = fillBag();
 		letterpillar = [makeDismemberedBodyPart(getRandomNumber(0,gridWidth-1),
-			getRandomNumber(0, gridHeight-1),undefined, undefined)];
+			getRandomNumber(0, gridHeight-1),undefined, undefined, lastMove)];
 		
 		drawGameBoard();
 		

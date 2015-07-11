@@ -1,5 +1,5 @@
 body {
-	font-family: Verdana, Geneva, sans-serif;
+	/*font-family: Verdana, Geneva, sans-serif;*/
 	font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 	/*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;*/
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 #gameBoard {
-	
+	border: 1px solid lightgrey;
 }
 
 button{
@@ -116,4 +116,39 @@ input {
 label {
 	margin-bottom:5px;
 	float:left;
+}
+
+.lettersG, .textG {
+	font-weight: bold;
+	font-family: 'Lucida Console', Monaco, monospace;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.letterpillarG text{
+	
+	text-anchor:middle;
+}
+.letterpillarG g, .letterpillarG rect{
+	z-index:0;
+	
+}
+.textG text, lettersG text{
+	text-anchor:middle;
+	/*use a monospace font so it always appears in the center of the circle*/
+	font-family: 'Lucida Console', Monaco, monospace;
+	/*font-family: 'Courier New', Courier, monospace;*/
+}
+
+#bottomPanel {
+	height:20px;
+	text-align:center;
+}
+
+rect {
+	fill: lightgrey;
+	stroke:transparent;
+}
+
+.head rect {
+	/*opacity:0.5;*/
 }

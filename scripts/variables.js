@@ -1,5 +1,5 @@
 var defaultWidth = 45;
-var defaultHeight = 20;
+var defaultHeight = 15;
 var circleWidth = 10;
 var gameBoardPadding = 5;
 

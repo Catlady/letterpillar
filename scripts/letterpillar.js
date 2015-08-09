@@ -161,10 +161,41 @@
 	}
 	
 	function verifyWord(){
-		var word = letterpillar.splice(0,1);
+		console.log('verifying word');
+		var queryWord = letterpillar != null && letterpillar.length > 1 ? letterpillar.splice(0,1) : 'apples';
+
 		// TODO AMW post the word to the server
 		// Use the first longest word, e.g.
 		// CATORCH: catorch, catorc, atorch, cator, atorc, [torch], cato, ator,...
+		
+		//functions.functions('theword', 'theword');
+		
+		$.post( "/functions", { word: queryWord, option: "unusedOption" }, function( data ) {
+			console.log(data);
+		});
+		
+		/*
+		// use node's http.request
+		
+		var apiKey = '28875f198b7568357d0251be0a70296428eac8ef76af0a3b1';
+		var word = "barnacle";
+		var config = {
+			api_key: apiKey,
+			limit: 10,
+			sourceDictionaries: 'ahd,wiktionary'
+		};
+
+		$.ajax({
+			type: 'GET',
+			url: '//api.wordnik.com/v4/word.json/' + word + '/definitions',
+			dataType: 'json',
+			data: config,
+			success: function(data) {console.log(data);},
+			error: function(response) {console.log(response);}
+		});
+		
+		*/
+
 	}
 	
 	 function makeLetter(bag, letter, quantity, score){
@@ -357,10 +388,6 @@
 		return letter;
 	}
 	
-	function moveLetterpillar(){
-		
-	}
-	
 	function stopGame(){
 		timerIsRunning = false;
 		updateDisplayedTime();
@@ -377,7 +404,7 @@
 		dialog.find('button').focus(); // I don't think this is working yet
 	}
 	
-		 function makeSquare(x,y,letter){
+	function makeSquare(x,y,letter){
 		 return {x:x, y:y, letter:letter};
 	 }
 	 
@@ -444,7 +471,12 @@
 		$('#time time').html(timeValue + '<span>:' + miliseconds + '</span>');
 	}
 	
-		$('#toggleTimer').click(function(){
+	$('#testingbutton2').click(function(){
+		console.log('testing node...');
+		verifyWord(); // send the request off to the server
+	});
+	
+	$('#toggleTimer').click(function(){
 		if(!timerIsRunning){
 			startGame();
 		} else {

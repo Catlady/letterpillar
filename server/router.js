@@ -1,5 +1,6 @@
 /*Route incoming requests*/
 
+
 function route(handle, pathname, response, postData) {
     
     // If pathname represents server function, pass request to that function. 

@@ -2,37 +2,50 @@ var querystring = require('querystring');
 var fs = require('fs');
 var path = require('path');
 
+const ENCODING = 'utf-8';
+
 // Convert URL request to static file path
-function static(response, postData) {
+function static(response, pathname) {
     
-    var filePath = '.' + postData;
+    var filePath = '.' + pathname;
     if (filePath === './' || filePath === '.' || filePath === '.\\') {
         filePath = './index.html';
     }
-    console.log('Loading ' + postData);
+    
     var contentType = getContentType(path.extname(filePath));
         
     fs.exists(filePath, function(exists) {
         if (exists) {
+			console.log('Loading ' + filePath + '...');
             fs.readFile(filePath, function(error, content) {
                 if (error) {
                     response.writeHead(500, {'Content-Type': contentType});
-                    response.end('500 Error', 'utf-8');
+                    response.end('500 Error', ENCODING);
                 } else {
                     response.writeHead(200, {'Content-Type': contentType});
-                    response.end(content, 'utf-8');
+                    response.end(content, ENCODING);
                 }
             });
         } else {
             console.log('Static file path '+filePath+' not found, responded with 404 error');
             response.writeHead(404, {'Content-Type': contentType});
-            response.end('404 Not found', 'utf-8');
+            response.end('404 Not found', ENCODING);
         }
     });
 }
 
-function favicon() {
-    console.log('No favicon set');
+function favicon(response) {
+	
+	console.log('Fetching favicon');
+	return static(response, '/images/favicon.ico');
+    //console.log('No favicon set');
+	//response.writeHead(200, {'Content-Type': contentType});
+	//response.end(content, ENCODING);
+	
+}
+
+function testingfunction(){
+	console.log('Yes this is a function');
 }
 
 function getContentType(extname){
@@ -56,6 +69,9 @@ function getContentType(extname){
         case '.xml':
             contentType = 'text/xml';
             break;
+		case '.ico':
+            contentType = 'image/x-icon';
+            break;
         default:
             contentType = 'text/plain';
             break;            
@@ -63,6 +79,6 @@ function getContentType(extname){
     return contentType;
 }
 
-// public methods or something like that
 exports.static = static;
 exports.favicon = favicon;
+exports.testingfunction = testingfunction;

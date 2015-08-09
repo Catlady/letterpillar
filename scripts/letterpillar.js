@@ -65,19 +65,17 @@
 		updateBottomPanel();
 	}
 	
-	function updateBottomPanel(){
-		
-		var maybeWord = [$(letterpillar).map(function(){
-			var letter = $(this).attr('letter');
-			return letter == undefined ? '' : letter.letter;
-		}) ];
-		
-		var maybeWord2 = $.map($(letterpillar), function(val, i){
-			//var letter = $(this).attr('letter');
+	function getLetterpillarMaybeWord(){
+		var maybeWord = $.map($(letterpillar), function(val, i){
 			return val.letter == undefined ? '' : val.letter.letter;
 		});
+		return maybeWord.join('');
 		
-		$('#bottomPanel p').html(maybeWord2.join(' '));
+	}
+	
+	function updateBottomPanel(){
+		
+		$('#bottomPanel p').html(getLetterpillarMaybeWord());
 	}
 	
 	function move(){
@@ -160,42 +158,15 @@
 		redrawLetterpillar();
 	}
 	
-	function verifyWord(){
-		console.log('verifying word');
-		var queryWord = letterpillar != null && letterpillar.length > 1 ? letterpillar.splice(0,1) : 'apples';
-
-		// TODO AMW post the word to the server
-		// Use the first longest word, e.g.
-		// CATORCH: catorch, catorc, atorch, cator, atorc, [torch], cato, ator,...
+	function verifyWord(){	 
+		 var queryWord = getLetterpillarMaybeWord();
+		 if(queryWord == undefined || queryWord.length == 0)
+			 queryWord = 'catorch';
 		
-		//functions.functions('theword', 'theword');
-		
-		$.post( "/functions", { word: queryWord, option: "unusedOption" }, function( data ) {
+		console.log('looking up ' + queryWord);
+		$.post( "/functions", { word: queryWord}, function( data ) {
 			console.log(data);
 		});
-		
-		/*
-		// use node's http.request
-		
-		var apiKey = '28875f198b7568357d0251be0a70296428eac8ef76af0a3b1';
-		var word = "barnacle";
-		var config = {
-			api_key: apiKey,
-			limit: 10,
-			sourceDictionaries: 'ahd,wiktionary'
-		};
-
-		$.ajax({
-			type: 'GET',
-			url: '//api.wordnik.com/v4/word.json/' + word + '/definitions',
-			dataType: 'json',
-			data: config,
-			success: function(data) {console.log(data);},
-			error: function(response) {console.log(response);}
-		});
-		
-		*/
-
 	}
 	
 	 function makeLetter(bag, letter, quantity, score){

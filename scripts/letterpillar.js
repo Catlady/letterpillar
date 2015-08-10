@@ -70,11 +70,9 @@
 			return val.letter == undefined ? '' : val.letter.letter;
 		});
 		return maybeWord.join('');
-		
 	}
 	
 	function updateBottomPanel(){
-		
 		$('#bottomPanel p').html(getLetterpillarMaybeWord());
 	}
 	
@@ -120,8 +118,6 @@
 			redrawLetters();
 		}
 		
-
-		
 		for(var i = letterpillar.length-1; i > 0; i--){
 			letterpillar[i].x = letterpillar[i].prev.x;
 			letterpillar[i].y = letterpillar[i].prev.y;
@@ -144,21 +140,11 @@
 			
 			letterpillar[i].moveDirection = direction;
 		}
-		
-		/*for(var i = letterpillar.length-1; i > 0; i--){
-			
-			if(i+1 < letterpillar.length-1){
-				var prev = letterpillar[i].prev;
-				var next = letterpillar[i+1];	
-				if(prev.moveDirection != next.moveDirection)
-					letterpillar[i].moveDirection = 'none'; // this node is on a corner
-			}
-		}*/
-		
+	
 		redrawLetterpillar();
 	}
 	
-	function verifyWord(){	 
+	function validateWord(){	 
 		 var queryWord = getLetterpillarMaybeWord();
 		 if(queryWord == undefined || queryWord.length == 0)
 			 queryWord = 'catorch';
@@ -166,9 +152,42 @@
 		console.log('looking up ' + queryWord);
 		$.post( "/functions", { word: queryWord}, function( data ) {
 			console.log(data);
+			var dataObject = JSON.parse(data);
+			scoreWord(dataObject);
 		});
 	}
 	
+	function scoreWord(dataObject){
+		var bestWord = dataObject.word;
+		var points = dataObject.points;
+		var wordFirstIndex = dataObject.index;
+		
+		updateScore(points);
+		removeWordFromLetterpillar(wordFirstIndex, bestWord.length);
+		updateWordList(bestWord, points);
+	}
+	
+	function updateWordList(word, points){
+		var wordListDiv = $('#wordList');
+		wordListDiv.html( '<span><span class="wordListWord">'+word.toUpperCase()
+			+'</span><span class="wordListScore">'+points+'</span></span>'  
+			+ wordListDiv.html() );
+	}
+	
+	function updateScore(points){
+		var scoreDiv = $('#score');
+		
+		var score = scoreDiv.html();
+		score = (score == undefined || score == '') ? points : score + points;
+		scoreDiv.html(score);
+	}
+	
+	function removeWordFromLetterpillar(index, length){
+		// TODO AMW because the server call was asynchronous, do we have to check if this is indeed the correct word?
+		letterpillar.splice(index, length);
+		redrawLetterpillar();
+	}
+
 	 function makeLetter(bag, letter, quantity, score){
 		 for(var i = 0; i < quantity; i++){
 			bag.push({letter:letter, score:score}); // quick check suggests this might not be as inefficient as you would think
@@ -233,7 +252,9 @@
 				   })
 				   .classed('head', true)
 				   .attr('width', 30)
-					.attr('height', 30);
+					.attr('height', 30)
+					.attr("rx", 10)
+					.attr("ry", 10);
 				;
 				
 			
@@ -256,11 +277,11 @@
 				
 			var letterpillarGroups =  d3.select('.letterpillarG')
 				.selectAll('rect') 
+				.attr("rx", 10)
+				.attr("ry", 10)
 				.attr("transform", function(d) {
 					 return "translate(" + scaleX(d.x) + "," + scaleY(d.y) + ")"; 
-				   })
-				   ;		
-
+				   });		
 
 			d3.select('.letterpillarG')
 				.selectAll('rect')
@@ -301,7 +322,22 @@
 			.selectAll('circle')
 			.attr("r", 10)
 			.attr("stroke", function(d){
-				return d.letter == undefined || d.letter.score == 0 ? "transparent" : colours[d.letter.score];
+				if(d.letter == undefined || d.letter.score == 0 ){
+					return 'transparent';
+				}
+				else if(isVowel(d.letter)){
+					return '#F6B772';
+				}
+				return colours[d.letter.score];
+			})
+			.attr("fill", function(d){
+				if(d.letter == undefined || d.letter.score == 0 ){
+					return 'transparent';
+				}
+				else if(isVowel(d.letter)){
+					return '#F6B772';
+				}
+				return colours[d.letter.score];
 			});
 			
 		d3.select('.lettersG')
@@ -367,6 +403,7 @@
 		$('#toggleTimer').html('Start');
 		
 		$('#overlay').show();	
+		$('#bottomPanel').hide();
 		
 		var dialog = $('#dialog');
 		dialog.show();
@@ -404,6 +441,8 @@
 		$('#toggleTimer').html('Stop');
 		$('#dialog').hide();
 		$('#overlay').hide();
+		$('#score').html('');
+		$('#bottomPanel').show();
 	}
 	
 	function updateDisplayedTime(){
@@ -442,9 +481,8 @@
 		$('#time time').html(timeValue + '<span>:' + miliseconds + '</span>');
 	}
 	
-	$('#testingbutton2').click(function(){
-		console.log('testing node...');
-		verifyWord(); // send the request off to the server
+	$('#validateWord').click(function(){
+		validateWord();
 	});
 	
 	$('#toggleTimer').click(function(){
@@ -461,11 +499,11 @@
 		$('#toggleTimer').focus();
 	});
 	
-		$('input').change(function(){
+	$('input').change(function(){
 		console.log($(this).val());
 	});
 	
-		$(document).keydown(function(e) {		
+	$(document).keydown(function(e) {		
 		switch (e.keyCode) {
         case 37:
 			lastMove = 'left';
@@ -483,12 +521,13 @@
 			lastMove = 'down';
 			move();
             break;
-		case 13:  // 'enter'
-			// enter - validate word
+		case 13: 	// [enter]
+		case 0:  	// [space] mozilla
+		case 32:  // [space] other browsers
+			validateWord();
 			break;
 		}
 	});
-	
 	
 });
 

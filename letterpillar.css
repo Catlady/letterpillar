@@ -33,7 +33,6 @@ h1 {
 }
 
 #stats{
-
 	display:inline-block;
 	float:right;
 }
@@ -47,6 +46,25 @@ h1 {
 /*miliseconds*/
 #time time span{
 	opacity:0.1;
+}
+
+#wordList{
+	display:inline-block;
+	float:right;
+	clear:both;
+	width:100%;
+}
+#wordList > span{
+	display:block;
+	clear:both;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+#wordList .wordListWord{
+	float:left;
+}
+#wordList .wordListPoints{
+	float:right;
 }
 
 #sideBarMainContent{
@@ -119,9 +137,9 @@ label {
 }
 
 .lettersG, .textG {
-	font-weight: bold;
+	/*font-weight: bold;*/ /*bold is use if I decide not to use a monospace font*/
 	font-family: 'Lucida Console', Monaco, monospace;
-	font-family: 'Courier New', Courier, monospace;
+	/*font-family: 'Courier New', Courier, monospace;*/
 }
 
 .letterpillarG text{
@@ -142,11 +160,18 @@ label {
 #bottomPanel {
 	height:20px;
 	text-align:center;
+	clear:both;
+	display:none;
 }
 
 rect {
 	fill: lightgrey;
 	stroke:transparent;
+}
+
+circle {
+	stroke-width: 3px;
+	opacity:0.5;
 }
 
 .head rect {

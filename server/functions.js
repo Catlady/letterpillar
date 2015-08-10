@@ -41,7 +41,7 @@ function addAllWordsOfLength(wordQuery, words, tryLength){
 			return addAllWordsOfLength(wordQuery, words, tryLength - 1);
 		}
 		var word = wordQuery.substring(min, max);
-		words.push({word:word, exists:false, response:undefined});
+		words.push({word:word, exists:false, response:undefined, index:i});
 	}
 }
 
@@ -90,6 +90,8 @@ function lookupWord(wordThing, response){
 				var exists = bodyResult.totalResults != 0;
 				wordThing.exists = exists; 
 				console.log('Successfully looked up ' + word + '. Found ' + bodyResult.totalResults + ' instances.');
+				
+				
 			});            
 	
 		} else {
@@ -121,18 +123,47 @@ function checkIfFinished(response, words, timer){
 	}
 	clearInterval(timer);
 	var longestBestWord = '';
+	var index = -1;
 	for(var i = 0; i < words.length; i++){
 		if(words[i].exists == true) {
 			longestBestWord = words[i].word;	
+			index = words[i].index;
 			break;
 		}
 	}
 	response.writeHead(200, {"Content-Type": "text/html"});    
         console.log("Best word is: " + longestBestWord);
-        response.write("Best word is: " + longestBestWord);
+        
+		var bestWord = { 
+			word: longestBestWord,
+			points: getPointsForWord(longestBestWord),
+			wordFirstIndex: index 
+		};
+		
+		response.write(JSON.stringify(bestWord));
         response.end();
 	
 	return true;
+}
+
+function getPointsForWord(word){
+	if(word.length < minWordLength) return 0;
+	switch (word.length) {
+        case 3:
+			return 3;
+        case 4:
+			return 5;
+        case 5:
+			return 7;
+        case 6:
+			return 9;
+		case 7: 
+			return 11;
+		case 8: 
+			return 13;
+		default:
+			return 15;
+	}	
 }
 
 exports.functions = functions;

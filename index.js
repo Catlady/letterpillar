@@ -12,3 +12,11 @@ handle["/functions"] = functions.functions;
 
 console.log('about to start server');
 server.start(router.route, handle);
+
+/*Free hosting
+https://www.appfog.com/
+https://console.appfog.com/
+
+redirected from snakesandletters.com
+https://theconsole.netregistry.com.au
+*/

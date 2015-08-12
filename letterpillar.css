@@ -10,6 +10,7 @@ header, footer{
 	width:100%;
 	opacity:0.1;
 	clear:both;
+	overflow:hidden;
 }
 
 header {
@@ -24,8 +25,12 @@ h1 {
 	margin-bottom: 5px;
 }
 
+div{
+	overflow:hidden;
+}
+
 #sideBar{
-	width:200px;
+	/*width:200px;*/
 	
 	float:right;
 	display:block;
@@ -33,18 +38,31 @@ h1 {
 }
 
 #stats{
-	display:inline-block;
-	float:right;
+	/*display:inline-block;*/
+	
+	width:100%;
 }
 #stats #time{
+	/*float:right;*/
+	font-size:2.5em;
+	/*width:100%;
+	text-align: justify;*
+	display:block;*/
 	float:right;
-	font-size:3em;
-}#stats #score{
+	display:inline;
+
+}
+#stats #score{
 	color:grey;
 	float:left;
+	clear:both;
+	
 }
-/*miliseconds*/
-#time time span{
+#time time .seconds{
+	float:left;
+}
+#time time .milliseconds{
+	float:right;
 	opacity:0.1;
 }
 
@@ -138,8 +156,11 @@ label {
 
 .lettersG, .textG {
 	/*font-weight: bold;*/ /*bold is use if I decide not to use a monospace font*/
-	font-family: 'Lucida Console', Monaco, monospace;
+	/*font-family: 'Lucida Console', Monaco, monospace;*/
 	/*font-family: 'Courier New', Courier, monospace;*/
+	font-weight: bold;
+	font-size: 20px;
+	text-anchor: middle;
 }
 
 .letterpillarG text{
@@ -158,10 +179,16 @@ label {
 }
 
 #bottomPanel {
-	height:20px;
+	height:60px;
 	text-align:center;
 	clear:both;
 	display:none;
+	overflow:hidden;
+}
+
+#bottomPanel p{
+	letter-spacing: 4px;'
+	font-weight:bold;
 }
 
 rect {

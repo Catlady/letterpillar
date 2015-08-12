@@ -5,7 +5,7 @@ const ENCODING = 'utf8';
 
 var searchDuration = 100; // How often to check whether all words have been looked up
 var minWordLength = 3;
-var giveUpAfterNAttempts = 20;
+var giveUpAfterNAttempts = 100;
 var lookupsSoFar;
 
 var hostName = 'api.wordnik.com';
@@ -20,6 +20,9 @@ var errorText = 'Error contacting Wordnik';
 
 // Wordnik response takes the following format:
 // ""{\"totalResults\":3,\"searchResults\":[{\"lexicality\":0.0,\"count\":79883,\"word\":\"apples\"}]}""
+
+
+
 
 function getAllPossibleWords(wordQuery){
 	// Use the first longest word, e.g.
@@ -137,7 +140,7 @@ function checkIfFinished(response, words, timer){
 		var bestWord = { 
 			word: longestBestWord,
 			points: getPointsForWord(longestBestWord),
-			wordFirstIndex: index 
+			index: index 
 		};
 		
 		response.write(JSON.stringify(bestWord));

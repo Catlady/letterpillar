@@ -47,7 +47,12 @@
 				<div id="sideBarMainContent">
 				
 					<div id="stats">
-						<span id="time"><time>00:00<span>:000</span></time></span>
+						<span id="time">
+							<time>
+								<span class="seconds">00:00</span>
+								<span class="milliseconds">:000</span>
+							</time>
+						</span>
 						<span id="score">21</span>
 						<button id="toggleTimer">Start</button>
 					</div>
@@ -63,8 +68,8 @@
 				<!--Side bar secondary content is collapsed by default-->
 				<div id="sideBarSecondaryContent">
 					<div id="options">
-					<label>x:<input id="gridWidth" type="text"></input></label>
-					<label>y:<input id="gridHeight"type="text"></input></label>
+					<!--<label>x:<input id="gridWidth" type="text"></input></label>
+					<label>y:<input id="gridHeight"type="text"></input></label>-->
 					</div>
 					<div id="navigationBar">
 					<!--This will provide buttons in case the user does not want to navigate with keys-->

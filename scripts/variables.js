@@ -1,7 +1,24 @@
 var defaultWidth = 45;
 var defaultHeight = 15;
-var circleWidth = 10;
+
 var gameBoardPadding = 5;
+
+var circleRadius = 15;
+var rectWidth = 30;
+var rectCorner = 10;
+var paddingBetweenCircles = 10;
+
+// The available width and height for the game board
+var gameBoardWidth;
+var gameBoardHeight;
+
+var textOffset = '0.35em'; // how far down the text is spaced vertically
+
+var gameBoardWidthPadding = 70;
+var gameBoardHeightPadding = 40;
+
+var timerUpdateDuration = 100;
+var gameBoardUpdateDuration = 1000;
 
 var timerIsRunning = false;
 var startTime = undefined;
@@ -46,5 +63,6 @@ var colours =
 	10: '#F67EE9', 
 };
 
+var vowelColour = '#F6B772';
 // nice orange
 // #F6B772

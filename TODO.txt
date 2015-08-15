@@ -1,0 +1,27 @@
+* Visual feedback required when word is submitted and when response is received
+	(especially if the response returned nothing)
+	
+* styling for right side panel
+
+* what do I do if the game runs over 60 mins? end game?
+
+* word lookup backwards and forwards depending on snake direction? 
+	NO - just rely on the word displayed in the bottom panel rather than the (possibly reversed)
+	word shown on the snake
+	
+* can snake cross itself to create loop words or to do lookups where the letter
+	at the crossed position is G/A (has two options)
+	NO - looped words are too difficult because which direction do we read them in?
+	we are relying on the bottom panel displayed word for this reason
+* alternatively, should snake die when crossing itself?
+
+* style notes
+	- bottom panel word could be longer than bottom panel
+	
+* the more letters we are looking up, the longer it might take. (Can't assume the user has
+	done any previous lookups). Unless we automatically trigger background lookups every
+	now and then without committing the words, to cover for users who may not regularly
+	hit enter
+	
+* to actually be a game the size of the board should be predefined not just based on
+	what fits nicely on the screen

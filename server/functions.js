@@ -17,14 +17,13 @@ var config = {
 	//sourceDictionaries: 'ahd,century,webster,wordnet',
 	limit: 1
 };
-// parameter sourceDictionaries is available for other methods. should use this
+
 /*
 ahd				American Heritage Dictionary
 century		The Century Dictionary Online
 wiktionary	Wiktionary
 webster		Merriam-Webster
 wordnet		Wordnet (Princeton)
-Source dictionary to return definitions from. If 'all' is received, results are returned from all sources. If multiple values are received (e.g. 'century,wiktionary'), results are returned from the first specified dictionary that has definitions. If left blank, results are returned from the first dictionary that has definitions. By default, dictionaries are searched in this order: ahd, wiktionary, webster, century, wordnet
 */
 
 var configString = querystring.stringify(config);
@@ -32,7 +31,6 @@ var errorText = 'Error contacting Wordnik';
 
 // Wordnik response takes the following format:
 // ""{\"totalResults\":3,\"searchResults\":[{\"lexicality\":0.0,\"count\":79883,\"word\":\"apples\"}]}""
-
 
 // Alternative client solution:
 	// With every server response, we already know the single word that will be accepted. With 

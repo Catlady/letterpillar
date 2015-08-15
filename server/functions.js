@@ -6,7 +6,7 @@ const ENCODING = 'utf8';
 const SEARCH_DURATION = 100; // How often to check whether all words have been looked up
 const MIN_WORD_LENGTH = 3;
 const MAX_WORD_LENGTH = 12;
-const GIVE_UP_AFTER_ATTEMPTS = 100;
+const GIVE_UP_AFTER_ATTEMPTS = 1000;
 var lookupsSoFar;
 
 var hostName = 'api.wordnik.com';
@@ -14,7 +14,8 @@ var apiKey = '28875f198b7568357d0251be0a70296428eac8ef76af0a3b1';
 var config = {
 	api_key: apiKey,
 	caseSensitive: false,
-	limit: 1,
+	//sourceDictionaries: 'ahd,century,webster,wordnet',
+	limit: 1
 };
 // parameter sourceDictionaries is available for other methods. should use this
 /*
@@ -111,10 +112,6 @@ function functions(response, postdata) {
 	for(var i = 0; i < words.length; i++){
 		
 		if(words[i].response == undefined){ 
-			console.log('looking up a word with response...');
-			if(words[i].response == 'undefined'){
-				console.log('ahah!!!!');
-			}
 			console.log(words[i].response )
 			lookupWord(words[i]);	
 		} else {
@@ -131,12 +128,13 @@ function functions(response, postdata) {
 
 function lookupWord(wordThing){
 	var word = wordThing.word;
-	var path = '/v4/words.json/search/' + word + '?' + configString;
+	var searchPath = '/v4/words.json/search/' + word + '?' + configString;
+	var definitionPath = '/v4/word.json/' + word + '/definitions?' + configString;
 	
 	var options = { 
 		host: hostName,
 		port: 80,
-		path: path
+		path: searchPath
 	};
 
 	var req = http.get(options, function(res) {
@@ -151,20 +149,42 @@ function lookupWord(wordThing){
 				wordThing.response = 200;
 				
 				var bodyResult = JSON.parse(body);
-				var exists = bodyResult.totalResults != 0;
+				console.log(bodyResult);
+				
+				var exists = false;
+				if(bodyResult.totalResults != undefined){
+					if(bodyResult.totalResults > 0){
+						exists = bodyResult.searchResults[0].count > 0;
+					}
+				} else {
+					exists = false;
+					// if lookup is based on definitionPath, use below:
+					// exists = bodyResult.length != 0;
+				}
+				
 				wordThing.exists = exists; 
-				console.log('Successfully looked up ' + word + '. Found ' + bodyResult.totalResults + ' instances.');
-				
-				
+				var resultCount = bodyResult.totalResults != undefined? bodyResult.totalResults : bodyResult.length;
+				if(exists)
+					console.log('Successfully looked up ' + word + '. Found ' + resultCount + ' instances.');
 			});            
+			
+		} else if(res.statusCode === 0){
+			wordThing.response = 0;
+			wordThing.exists = false;
+			console.log(word + ' not found.');
+		} else if(res.statusCode === 503){
+			// This is happening quite a bit. Perhaps I am overloading the server
+			wordThing.response = 503;
+			wordThing.exists = false;
+			console.log(word + ' not found.');
 	
 		} else {
-			wordThing.response = 500;
-			console.log(errorText);
+			wordThing.response = res.statusCode;
+			console.log(res.statusCode + ' ' + errorText);
 		}
     }).on('error', function(err) {
 		wordThing.response = 500;
-		console.log(errorText + ': ' + err.message);
+		console.log(500 + ' ' + errorText + ': ' + err.message);
     });	
 	
 	req.end();

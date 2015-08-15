@@ -31,6 +31,17 @@
 		<div id="dialog"><p>Game over!</p>
 			<button>OK</button>
 		</div>	
+		
+		<div id="instructions">
+		
+			<h2>Instructions</h2>
+			<p>Click [start] to begin game.</p>
+			<p>Move snake using arrow keys.</p>
+			<p>Submit word using [space] or [enter].</p>
+			<p>Words are based on the longest, earliest word found in the dictionary.</p>
+			<button>OK</button>
+		</div>	
+		
 	
 		<header>
 			<h1>snakes & letters</h1>
@@ -53,14 +64,13 @@
 								<span class="milliseconds">:000</span>
 							</time>
 						</span>
-						<span id="score">21</span>
-						<button id="toggleTimer">Start</button>
+						<span id="score"></span>
+						<button id="toggleTimer">start</button>
+						<button id="pauseGame" disabled>pause</button>
+						<button id="validateWord" disabled>validate</button>
 					</div>
 					
 					<div id="wordList">
-						<span><span class="wordListWord">example</span><span class="wordListPoints">10</span></span>
-						<span><span class="wordListWord">apple</span><span class="wordListPoints">8</span></span>
-						<span><span class="wordListWord">cat</span><span class="wordListPoints">3</span></span>
 					</div>
 					
 				</div>
@@ -83,13 +93,13 @@
 			</section>
 			<section id="bottomPanel">
 			<p></p>
-			<button id="validateWord" >Validate</button>
 			</section>
 
 		</main>
 		  
 		<footer>
-			<p>developed by: amber weightman</p>
+			<span>developed by: amber weightman</span>
+			<a href="#" id="instructionsLink">instructions</a>
 		</footer>
 
 	</body>

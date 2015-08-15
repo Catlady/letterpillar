@@ -3,9 +3,10 @@ var querystring = require('querystring');
 
 const ENCODING = 'utf8';
 
-var searchDuration = 100; // How often to check whether all words have been looked up
-var minWordLength = 3;
-var giveUpAfterNAttempts = 100;
+const SEARCH_DURATION = 100; // How often to check whether all words have been looked up
+const MIN_WORD_LENGTH = 3;
+const MAX_WORD_LENGTH = 12;
+const GIVE_UP_AFTER_ATTEMPTS = 100;
 var lookupsSoFar;
 
 var hostName = 'api.wordnik.com';
@@ -15,6 +16,16 @@ var config = {
 	caseSensitive: false,
 	limit: 1,
 };
+// parameter sourceDictionaries is available for other methods. should use this
+/*
+ahd				American Heritage Dictionary
+century		The Century Dictionary Online
+wiktionary	Wiktionary
+webster		Merriam-Webster
+wordnet		Wordnet (Princeton)
+Source dictionary to return definitions from. If 'all' is received, results are returned from all sources. If multiple values are received (e.g. 'century,wiktionary'), results are returned from the first specified dictionary that has definitions. If left blank, results are returned from the first dictionary that has definitions. By default, dictionaries are searched in this order: ahd, wiktionary, webster, century, wordnet
+*/
+
 var configString = querystring.stringify(config);
 var errorText = 'Error contacting Wordnik';
 
@@ -22,18 +33,28 @@ var errorText = 'Error contacting Wordnik';
 // ""{\"totalResults\":3,\"searchResults\":[{\"lexicality\":0.0,\"count\":79883,\"word\":\"apples\"}]}""
 
 
+// Alternative client solution:
+	// With every server response, we already know the single word that will be accepted. With 
+	// every response, send back to the client the list of every word we tried
+	// but ONLY IF those words we tried can still be found in the altered query string
+	// the client will then send this back with every request. Server identifies all words as per normal,
+	// but fills in the responses we already have rather than doing server calls for them
 
-
+// Get a list of all words that need to be looked up
 function getAllPossibleWords(wordQuery){
 	// Use the first longest word, e.g.
 	// CATORCH: catorch, catorc, atorch, cator, atorc, [torch], cato, ator,...
+	
 	var words = [];
-	addAllWordsOfLength(wordQuery, words, wordQuery.length);
+	
+	// TODO AMW test this carefully
+	var searchLength = (wordQuery.length > MAX_WORD_LENGTH) ? MAX_WORD_LENGTH : wordQuery.length;
+	addAllWordsOfLength(wordQuery, words, searchLength);
 	return words;
 }
 
 function addAllWordsOfLength(wordQuery, words, tryLength){
-	if(tryLength < minWordLength){
+	if(tryLength < MIN_WORD_LENGTH){
 		return;
 	}
 	
@@ -48,27 +69,67 @@ function addAllWordsOfLength(wordQuery, words, tryLength){
 	}
 }
 
+// TODO AMW test this carefully
+function infillWordsFromRequest(words, requestWords){
+	if(requestWords == undefined){
+		console.log('ERROR: REQUEST WORDS WAS UNDEFINED');
+		return words;
+	}
+	
+	for(var i = 0; i < words.length; i++){
+		for(var k = 0; k < requestWords.length; k++){
+			// index must remain unchanged
+			if(words[i].word == requestWords[k].word && requestWords[k].response == 200){
+				words[i].exists = requestWords[k].exists;
+				words[i].response = requestWords[k].response;
+				continue;
+			}
+		}
+	}
+	return words;
+}
+
 function functions(response, postdata) {
-	var queryObject = querystring.parse(postdata);
-	var wordQuery = queryObject.word;
+	var requestObject = querystring.parse(postdata);
+	var wordQuery = requestObject.word;
+	var requestWords = requestObject.previousRequestWords;
+	console.log(requestWords);
+	if(requestWords != undefined){
+		console.log('previousRequestWords was not at first undefined');
+		requestWords = JSON.parse(requestWords);
+		console.log(requestWords);	
+	}
+	
 	
 	console.log('Looking up: '  + wordQuery);
 	
 	var words = getAllPossibleWords(wordQuery);
+	words = infillWordsFromRequest(words, requestWords);
 	
 	// Kick this off for all possible words. We need to wait til they all return
+	// For each word not already infilled from the request, look it up
 	for(var i = 0; i < words.length; i++){
-		lookupWord(words[i], response);
+		
+		if(words[i].response == undefined){ 
+			console.log('looking up a word with response...');
+			if(words[i].response == 'undefined'){
+				console.log('ahah!!!!');
+			}
+			console.log(words[i].response )
+			lookupWord(words[i]);	
+		} else {
+			console.log(words[i].word + ' has already been looked up');
+		}
 	}
 	
 	// Once lookup is completed for every word, checkIfFinished will find and return the longest valid word
 	lookupsSoFar = 0;
 	var timer = setInterval((function() {    
             checkIfFinished(response, words, timer);
-	 }), searchDuration);
+	 }), SEARCH_DURATION);
 }
 
-function lookupWord(wordThing, response){
+function lookupWord(wordThing){
 	var word = wordThing.word;
 	var path = '/v4/words.json/search/' + word + '?' + configString;
 	
@@ -114,17 +175,20 @@ function lookupWord(wordThing, response){
 function checkIfFinished(response, words, timer){
 	lookupsSoFar += 1;
 	console.log(lookupsSoFar);
-	if(lookupsSoFar == giveUpAfterNAttempts){
+	if(lookupsSoFar == GIVE_UP_AFTER_ATTEMPTS){
 		response.writeHead(500, {"Content-Type": "text/html"});    
         console.log('Timed out looking for word');
         response.write('Timed out looking for word');
         response.end();
+		
+		clearInterval(timer);
+		return true;
 	}
 	
 	for(var i = 0; i < words.length; i++){
 		if(words[i].response == undefined) return false;
 	}
-	clearInterval(timer);
+	
 	var longestBestWord = '';
 	var index = -1;
 	for(var i = 0; i < words.length; i++){
@@ -135,22 +199,25 @@ function checkIfFinished(response, words, timer){
 		}
 	}
 	response.writeHead(200, {"Content-Type": "text/html"});    
-        console.log("Best word is: " + longestBestWord);
+	console.log("Best word is: " + longestBestWord);
+	console.log("Found at index: " + index);
         
-		var bestWord = { 
-			word: longestBestWord,
-			points: getPointsForWord(longestBestWord),
-			index: index 
-		};
-		
-		response.write(JSON.stringify(bestWord));
-        response.end();
+	var responseObject = { 
+		word: longestBestWord,
+		points: getPointsForWord(longestBestWord),
+		index: index,
+		allWords: words	// send everything we looked up back to the client for storage
+	};
 	
+	response.write(JSON.stringify(responseObject));
+	response.end();
+	
+	clearInterval(timer);
 	return true;
 }
 
 function getPointsForWord(word){
-	if(word.length < minWordLength) return 0;
+	if(word.length < MIN_WORD_LENGTH) return 0;
 	switch (word.length) {
         case 3:
 			return 3;

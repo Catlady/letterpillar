@@ -12,10 +12,12 @@ var paddingBetweenCircles = 10;
 var gameBoardWidth;
 var gameBoardHeight;
 
+var previousRequestWords = undefined;
+
 var textOffset = '0.35em'; // how far down the text is spaced vertically
 
 var gameBoardWidthPadding = 70;
-var gameBoardHeightPadding = 40;
+var gameBoardHeightPadding = 20;
 
 var timerUpdateDuration = 100;
 var gameBoardUpdateDuration = 1000;

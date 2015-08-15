@@ -3,6 +3,12 @@
 	// Stretch the timer text across the whole width of the side bar
 	$('#sideBar').width( $('#time .milliseconds').width() + $('#time .seconds').width()  );
 	
+	// TODO AMW on page resize, if a game is not running, I need to reset these
+	setGameBoardSize();
+	$('#gameBoard').width(gameBoardWidth);
+	$('#gameBoard').height(gameBoardHeight);
+	
+	
 	// Given a width w and height h, return a set of w*h grid squares
 	function setGrid(){
 		
@@ -75,8 +81,11 @@
 		return maybeWord.join('');
 	}
 	
-	function updateBottomPanel(){
-		$('#bottomPanel p').html(getLetterpillarMaybeWord());
+	function updateBottomPanel(text){
+		if(text == undefined)
+			$('#bottomPanel p').html(getLetterpillarMaybeWord());
+		else
+			$('#bottomPanel p').html(text);
 	}
 	
 	function move(direction){
@@ -138,27 +147,39 @@
 		
 	}
 	
+	
 	function validateWord(){	 
 		 var queryWord = getLetterpillarMaybeWord();
 		 if(queryWord == undefined || queryWord.length == 0)
-			 queryWord = 'catorch';
+			 return;
 		
 		console.log('looking up ' + queryWord);
-		$.post( "/functions", { word: queryWord}, function( data ) {
+		
+		var requestObject  = {
+			word: queryWord,
+			previousRequestWords: JSON.stringify(previousRequestWords)
+		};
+		
+		$.post( "/functions", requestObject, function( data ) {
 			console.log(data);
-			var dataObject = JSON.parse(data);
-			scoreWord(dataObject);
+			var responseObject = JSON.parse(data);
+			scoreWord(responseObject);
+			previousRequestWords = responseObject.allWords;
 		});
 	}
 	
-	function scoreWord(dataObject){
-		var bestWord = dataObject.word;
-		var points = dataObject.points;
-		var wordFirstIndex = dataObject.index;
+	function scoreWord(responseObject){
+		var bestWord = responseObject.word;
+		var points = responseObject.points;
+		var wordFirstIndex = responseObject.index;
+		
+		if(bestWord == '' ) return false;
 		
 		updateScore(points);
 		removeWordFromLetterpillar(wordFirstIndex, bestWord.length);
 		updateWordList(bestWord, points);
+		updateBottomPanel();
+		return true;
 	}
 	
 	function updateWordList(word, points){
@@ -172,7 +193,8 @@
 		var scoreDiv = $('#score');
 		
 		var score = scoreDiv.html();
-		score = (score == undefined || score == '') ? points : score + points;
+		// TODO AMW remove the * 100
+		score = (score == undefined || score == '' ) ? points : Number(score) + Number(points) * 100;
 		scoreDiv.html(score);
 	}
 	
@@ -433,16 +455,45 @@
 		updateDisplayedTime();
 		clearInterval(timerIntervalId);
 		clearInterval(gameBoardIntervalId);
-		$('#toggleTimer').html('Start');
+		$('#toggleTimer').html('start');
 		
-		$('#overlay').show();	
+		
 		$('#bottomPanel').hide();
+		$('#pauseGame').prop('disabled', true);
+		$('#validateWord').prop('disabled', true);
 		
+		showDialog();
+	}
+	
+	function showDialog(){
 		var dialog = $('#dialog');
 		dialog.show();
+		$('#overlay').show();	
 		dialog.css('left', $(document).innerWidth() / 2 - dialog.width() / 2 +'px');
 		dialog.css('top', $(document).innerHeight() / 2 - dialog.height() / 2 +'px');
-		dialog.find('button').focus(); // I don't think this is working yet
+		dialog.find('button').focus(); 
+	}
+	
+	function hideDialog(){
+		$('#dialog').hide();
+		$('#overlay').hide();
+		$('#toggleTimer').focus();
+	}
+	
+	function showInstructions(){
+		var instructions = $('#instructions');
+		instructions.show();
+		$('#overlay').show();	
+		instructions.css('left', $(document).innerWidth() / 2 - instructions.width() / 2 +'px');
+		instructions.css('top', $(document).innerHeight() / 2 - instructions.height() / 2 +'px');
+		instructions.find('button').focus();
+	}
+	
+	function hideInstructions(){
+		$('#instructions').hide();
+		$('#overlay').hide();
+		// TODO AMW focus on what?
+		//$('#toggleTimer').focus();
 	}
 	
 	function makeGridSquare(x,y,letter){
@@ -474,12 +525,16 @@
 		
 		drawGameBoard();
 		
-		$('#toggleTimer').html('Stop');
-		$('#dialog').hide();
+		updateBottomPanel('');
+		
+		$('#toggleTimer').html('stop');
+		//$('#dialog').hide();
 		$('#overlay').hide();
 		$('#score').html('');
 		$('#bottomPanel').show();
 		$('#wordList').html('');
+		$('#pauseGame').prop('disabled', false);
+		$('#validateWord').prop('disabled', false);
 	}
 	
 	function updateDisplayedTime(){
@@ -512,7 +567,7 @@
 		if(miliseconds < 10) miliseconds = '00' + miliseconds;
 		else if(miliseconds < 100) miliseconds = '0' + miliseconds;
 		
-		var timeValue = (''+minutes).substring(0,3) + ':' + (''+seconds).substring(0,3);
+		var timeValue = (''+minutes).substring(0,2) + ':' + (''+seconds).substring(0,2);
 		if(hours > 0)
 			timeValue = (''+hours).substring(0,3) + ':'+timeValue;
 		$('#time time .seconds').html(timeValue);
@@ -532,10 +587,36 @@
 	});
 	
 	$('#dialog button').click(function(){
-		$('#dialog').hide();
-		$('#overlay').hide();
-		$('#toggleTimer').focus();
+		hideDialog();
 	});
+	
+	$('#instructions button').click(function(){
+		hideInstructions();
+	});
+	
+	$('#instructionsLink').click(function(d){
+		showInstructions();
+		
+		d.originalEvent.returnValue = false; // IE (TODO AMW find out how necessary this is)
+		return false;
+	});
+	
+	$('#pauseGame').click(function(d){
+		// Timer will continue but letters will stop being added
+		alert('Click OK to resume.');
+	});
+	
+	$('#overlay').click(function(event){
+		
+		
+		event.preventDefault();
+		event.stopPropagation();
+		event.stopImmediatePropagation();
+		
+		event.originalEvent.returnValue = false; // IE (TODO AMW find out how necessary this is)
+		
+	});
+	
 	
 	$('input').change(function(){
 		console.log($(this).val());
@@ -544,18 +625,22 @@
 	$(document).keydown(function(e) {		
 		switch (e.keyCode) {
         case 37:
+		case 100: // numpad
 			lastMove = 'left';
 			move(lastMove);
             break;
         case 38:
+		case 104: // numpad
 			lastMove = 'up';
 			move(lastMove);
             break;
         case 39:
+		case 102:
 			lastMove = 'right';
 			move(lastMove);
             break;
         case 40:
+		case 98: // numpad
 			lastMove = 'down';
 			move(lastMove);
             break;

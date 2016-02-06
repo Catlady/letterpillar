@@ -11,7 +11,7 @@ function static(response, pathname) {
     if (filePath === './' || filePath === '.' || filePath === '.\\') {
         filePath = './index.html';
     }
-    
+	
     var contentType = getContentType(path.extname(filePath));
         
     fs.exists(filePath, function(exists) {

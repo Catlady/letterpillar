@@ -23,5 +23,12 @@
 	now and then without committing the words, to cover for users who may not regularly
 	hit enter
 	
-* to actually be a game the size of the board should be predefined not just based on
+* to actually be a fair game for all players the size of the board should be predefined not just based on
 	what fits nicely on the screen
+	
+* load instructions should pause game	
+
+* when game is started, focus is on stop button, so hitting enter will 
+	stop game
+	
+(To start server: node documents/github/letterpillar/index.js)

@@ -19,7 +19,7 @@ var config = {
 };
 
 /*
-ahd				American Heritage Dictionary
+ahd			American Heritage Dictionary
 century		The Century Dictionary Online
 wiktionary	Wiktionary
 webster		Merriam-Webster

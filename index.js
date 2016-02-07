@@ -19,4 +19,6 @@ https://console.appfog.com/
 
 redirected from snakesandletters.com
 https://theconsole.netregistry.com.au
+
+https://docs.cloudfoundry.org/buildpacks/node/node-tips.html
 */

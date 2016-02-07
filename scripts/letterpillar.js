@@ -1,3 +1,12 @@
+(function () {
+	
+	var app = angular.module('letterpillarApp', []);
+	app.controller('letterpillarCtrl', function($scope) {
+		$scope.appName= APPNAME;
+	});
+
+})();
+
  $(document).ready(function() {
 
 	// Stretch the timer text across the whole width of the side bar

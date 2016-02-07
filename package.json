@@ -1,0 +1,20 @@
+{
+  "name": "snakesandletters",
+  "version": "1.0.0",
+  "description": "A game like Snake, but with words!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Catlady/letterpillar.git"
+  },
+  "author": "Amber Weightman <amberweightman@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Catlady/letterpillar/issues"
+  },
+  "homepage": "https://github.com/Catlady/letterpillar#readme"
+}

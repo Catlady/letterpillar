@@ -1,3 +1,5 @@
+const APPNAME = 'snakes & letters';
+
 var defaultWidth = 45;
 var defaultHeight = 15;
 

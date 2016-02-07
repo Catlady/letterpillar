@@ -37,11 +37,7 @@ function static(response, pathname) {
 function favicon(response) {
 	
 	console.log('Fetching favicon');
-	return static(response, '/images/favicon.ico');
-    //console.log('No favicon set');
-	//response.writeHead(200, {'Content-Type': contentType});
-	//response.end(content, ENCODING);
-	
+	return static(response, 'favicon.ico');
 }
 
 function testingfunction(){
